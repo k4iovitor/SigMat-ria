@@ -1,0 +1,246 @@
+{
+    "semestre1": [
+        {
+            "nome_bruto": "1103118 - CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA - 60CH",
+            "ementa": "Vetores no espaço. Retas e Planos. Cônicas. Superfícies Quádricas."
+        },
+        {
+            "nome_bruto": "1103177 - CÁLCULO DIFERENCIAL E INTEGRAL I - 60CH",
+            "ementa": "Funções reais de uma variável real. Limite e Continuidade. Derivadas: conceito, regras e aplicações."
+        },
+        {
+            "nome_bruto": "1107201 - METODOLOGIA DO TRABALHO CIENTIFICO - 45CH",
+            "ementa": "Conhecimento e ciência. A ciência moderna e o contexto sociocultural. Ciência e método cientifico. Técnica de estudo: técnica de leitura, de resumir e elaborar fechamentos,. Produção científica e apresentação estética de trabalhos acadêmicos: position paper, resenhas, relatórios, ensaios, artigo e monografias."
+        },
+        {
+            "nome_bruto": "1107248 - INTROD À ENGENHARIA DE COMPUTAÇÃO - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDINF0101 - LABORATÓRIO DE INTRODUÇÃO A PROGRAMAÇÃO - 60CH",
+            "ementa": "Práticas laboratoriais de algoritmos. Algoritmos: definição e características. Estruturas de controle: sequências, seleções (if, switch) e repetições (for, while, do-while). Conceitos de fluxogramas e pseudocódigo. Tipos primitivos: int, float, char, etc. Operadores aritméticos, relacionais, lógicos e bitwise. Conversão de tipos e manipulação de dados. Variáveis e constantes. Arrays: definição, manipulação e aplicação. Strings: operações básicas e funções de manipulação. Definição e declaração de funções. Parâmetros e valores de retorno. Escopo de variáveis e funções. Funções padrão da biblioteca C. Conceito e uso de ponteiros. Alocação dinâmica: malloc, calloc, realloc, free. Manipulação de ponteiros e arrays. Definição e uso de structs. Acesso e manipulação de membros de structs. Tipos definidos pelo usuário (typedef). Manipulação de Arquivo. Operações básicas de leitura e escrita. Manipulação de arquivos texto e binários. Funções da biblioteca padrão para operações com arquivos."
+        },
+        {
+            "nome_bruto": "GDINF0107 - INTRODUÇÃO A PROGRAMAÇÃO PARA ENGENHARIA DE COMPUTAÇÃO - 60CH",
+            "ementa": "História e características da linguagem C, estrutura básica de um programa C, compilação e execução de programas. Algoritmos: definição e características. Estruturas de controle: sequências, seleções (if, switch) e repetições (for, while, do-while). Conceitos de fluxogramas e pseudocódigo. Tipos primitivos: int, float, char, etc. Operadores aritméticos, relacionais, lógicos e bitwise. Conversão de tipos e manipulação de dados. Variáveis e constantes. Arrays: definição, manipulação e aplicação. Strings: operações básicas e funções de manipulação. Definição e declaração de funções. Parâmetros e valores de retorno. Escopo de variáveis e funções. Funções padrão da biblioteca C. Conceito e uso de ponteiros. Alocação dinâmica: malloc, calloc, realloc, free. Manipulação de ponteiros e arrays. Definição e uso de structs. Acesso e manipulação de membros de structs. Tipos definidos pelo usuário (typedef). Manipulação de Arquivo. Operações básicas de leitura e escrita. Manipulação de arquivos texto e binários. Funções da biblioteca padrão para operações com arquivos."
+        },
+        {
+            "nome_bruto": "GDSCO0025 - MATERIAIS PARA MICRO E NANO TECNOLOGIA - 60CH",
+            "ementa": "Estrutura atômica. Propriedades dos elementos. Ligação química e teoria de bandas. Pilhas. Eletrólise. Conceitos básicos de ciência dos materiais. Materiais condutores, dielétricos, semicondutores: propriedades e processos de fabricação. Estruturas cristalinas e amorfas. Imperfeições Estruturais. Estrutura e Propriedades dos Materiais Poliméricos. Propriedades Eletrônicas dos Materiais. Propriedades Térmicas dos Materiais. Nesta disciplina estão inclusas as atividades práticas de laboratório."
+        }
+    ],
+    "semestre2": [
+        {
+            "nome_bruto": "1101171 - FÍSICA APLICADA À COMPUTAÇÃO I - 60CH",
+            "ementa": "Vetores, Cinemática e dinâmica da partícula. Leis de Newton para o movimento. Trabalho e Energia. Oscilações. Ondas."
+        },
+        {
+            "nome_bruto": "1103178 - CÁLCULO DIFERENCIAL E INTEGRAL II - 60CH",
+            "ementa": "Integral de funções uma variável real. Funções reais de várias variáveis: limite e continuidade. Derivadas Parciais e Diferenciabilidade. Regra da Cadeia e derivação implícita. Máximos e Mínimos. Multiplicadores de Lagrange."
+        },
+        {
+            "nome_bruto": "GDINF0102 - LABORATORIO DE LINGUAGEM DE PROGRAMAÇÃO I - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDINF0108 - LINGUAGEM DE PROGRAMAÇÃO I - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0021 - CIRCUITOS LOGICOS I - 60CH",
+            "ementa": "Sistemas numéricos. Álgebra booleana e circuitos lógicos: definições e propriedades, portas lógicas, circuitos lógicos, minimização de circuitos lógicos. Representações de funções lógicas para uso em projeto de circuitos digitais. Mapa de Karnaugh. Características das tecnologias TTL e CMOS (Circuitos Integrados). Blocos lógicos funcionais, multiplexadores, decodificadores. Circuitos sequenciais e registradores. Circuitos aritméticos binários. Nesta disciplina estão inclusas atividades práticas de laboratório."
+        },
+        {
+            "nome_bruto": "GDSCO0023 - ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO I - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0046 - FÍSICA EXPERIMENTAL PARA COMPUTAÇÃO - 30CH",
+            "ementa": ""
+        }
+    ],
+    "semestre3": [
+        {
+            "nome_bruto": "1103179 - INTRODUÇÃO À ÁLGEBRA LINEAR - 60CH",
+            "ementa": "Espaços Vetoriais. Aplicações Lineares e Matrizes. Diagonalização de Operadores. Produto Interno."
+        },
+        {
+            "nome_bruto": "1103232 - CÁLCULO DIFERENCIAL E INTEGRAL III - 60CH",
+            "ementa": "Integral Dupla e Integral Tripla. Integral de Linha. Integral de Superfície."
+        },
+        {
+            "nome_bruto": "1107206 - PESQUISA APLICADA A COMPUTACAO - 45CH",
+            "ementa": "Ciência tecnologia: aspectos conceituais. A pesquisa e a construção do conhecimento. A pesquisa e sua interface nas diferentes áreas dos conhecimentos da engenharia. Métodos e técnicas de pesquisa acadêmica: normas da ABNT, elaboração de projetos e relatórios."
+        },
+        {
+            "nome_bruto": "1108136 - CÁLCULO DAS PROBABILIDADES I - 60CH",
+            "ementa": "Tópicos da Teoria dos Conjuntos. Métodos de Enumeração. Coeficientes Binomiais. Teorema Binomial. Modelos Matemáticos. Espaço Amostral. Eventos. Probabilidade. Probabilidade em Espaços Amostrais Finitos e Equiprováveis. Probabilidade Condicional e Independência. Variáveis Aleatórias Unidimensionais. Função de Distribuição e Função Densidade. Esperança matemática. Variância. Função Geratriz de Momentos. Principais Funções Discretas e Contínuas."
+        },
+        {
+            "nome_bruto": "GDSCO0022 - CIRCUITOS LOGICOS II - 60CH",
+            "ementa": "Linguagens de Descrição de Hardware (Aspectos básicos, Tipos de dados, Modelos de descrição de circuitos); Ferramentas para descrição e simulação de Hardware; Modelos de descrição de Circuitos Combinacionais; Modelos de descrição de Circuitos Sequenciais; Máquinas de Estados Finitos; Dispositivos Lógicos Programáveis; Memórias EEPROM, SRAM e DRAM; Projetos de sistemas digitais; Síntese de alto nível e programação para arquiteturas reconfiguráveis (LUTs, CLBs e FSMs). Nesta disciplina estão inclusas atividades práticas de laboratório."
+        },
+        {
+            "nome_bruto": "GDSCO0024 - ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO II - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0059 - MECÂNICA PARA ENGENHARIA DA COMPUTAÇÃO - 60CH",
+            "ementa": ""
+        }
+    ],
+    "semestre4": [
+        {
+            "nome_bruto": "1101172 - FÍSICA APLICADA À COMPUTAÇÃO II - 60CH",
+            "ementa": "Carga e matéria. Campo elétrico. Lei de Gauss. Potencial Elétrico. Capacitores e Dielétricos. Corrente e resistência elétrica. Força eletromotriz e Circuitos de corrente contínua. Campo magnético. A lei de Ampére e a corrente de deslocamento. A lei de Faraday. Indutância. Oscilações eletromagnéticas. Circuitos de corrente alternada."
+        },
+        {
+            "nome_bruto": "1103180 - SÉRIES E EQUAÇÕES DIFERENCIAIS ORDINÁRIAS - 60CH",
+            "ementa": "ALTERADA EM CONFORMIDADE COM A RESOLUÇÃO nº 37/2023 - CONSEPE: Sequências, Séries, Equações Diferenciais Ordinárias. Aplicações. ANTERIORMENTE: Sequências e Séries Numéricas. Séries de potências e Séries de Fourier. Equações Diferenciais Ordinárias."
+        },
+        {
+            "nome_bruto": "1107148 - LINGUAGEM DE PROGRAMAÇÃO II - 60CH",
+            "ementa": "Conceitos e terminologia de orientação a objetos: objetos, classes, métodos e mensagens, herança simples e múltipla, polimorfismo e sistema de tipos. Classificação de linguagens baseadas em objetos. Projeto orientado a objetos. Introdução à uma linguagem de programação orientada a objetos. Aplicações práticas."
+        },
+        {
+            "nome_bruto": "1107186 - ESTRUTURA DE DADOS - 60CH",
+            "ementa": "Conceitos básicos: valores, tipos abstratos, independência de representação. Estruturas lineares. Árvores: binárias, equilibradas, de pesquisa, heap. Grafos. Exemplos e Aplicações práticas."
+        },
+        {
+            "nome_bruto": "GDSCO0026 - ELETRÔNICA APLICADA I - 60CH",
+            "ementa": "Semicondutores: estrutura de níveis de energia em átomos isolados; estrutura de bandas de energia na matéria condensada; bandas de valência e de condução; band gap; diferenças entre condutores, isolantes e semicondutores; condutividade e efeito da temperatura; elétrons e lacunas; materiais semicondutores e dopagem; semicondutores intrínsecos, extrínsecos do tipo N e extrínsecos do tipo P. Diodo: junção p-n, região de depleção e princípio de funcionamento do diodo; curva característica, polarizações direta e reversa; regiões de ruptura direta e reversa; modelos ideal e equivalentes; análise de circuitos com diodos; reta de carga; resistências estática e dinâmica; retificadores de meia-onda, de onda completa em ponte, de onda completa com transformador com derivação central, filtro capacitivo; grampeadores, ceifadores e multiplicadores de tensão; diodo Schottky; diodo Zener; regulação de tensão; LED; fotodiodo. Transistor bipolar de junção (TBJ): construção e funcionamento do TBJ; curvas características; regiões de operação (modo ativo, modo de corte, modo de saturação, modo ativo reverso); polarização CC; modelos π-híbrido e T para grandes sinais; circuitos de chaveamento com TBJ; configurações base-comum, emissor comum, coletor comum; polarização por realimentação de emissor, por realimentação de coletor e por divisão de tensão; análise de pequenos sinais com TBJ; modelo π-híbrido; tensão de Early; circuitos com múltiplos estágios. Transistores de efeito de campo (FET): construção e características do JFET; construção e características do MOSFET tipo depleção; construção e características do MOSFET tipo intensificação; MOSFET de canal N e de canal P; regiões de operação (corte, triodo e saturação); polarização CC; circuitos de chaveamento com FET; análise de pequenos sinais com FET."
+        },
+        {
+            "nome_bruto": "GDSCO0035 - ARQUITETURA DE COMPUTADORES - 60CH",
+            "ementa": ""
+        }
+    ],
+    "semestre5": [
+        {
+            "nome_bruto": "GDSCO0034 - ARQUITETURA AVANÇADA DE COMPUTADORES - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "1107180 - BANCO DE DADOS I - 60CH",
+            "ementa": "Introdução aos sistemas de gerência de bancos de dados. Projeto de banco de dados: conceitual, lógico e físico. Modelo conceitual de entidades e relacionamentos. Modelo de dados relacional. Dependências funcionais e normalização. Linguagens de definição e de manipulação de dados. Álgebra relacional e SQL. Restrições de integridade e visões. Organização física de bancos de dados: técnicas de armazenamento e indexação."
+        },
+        {
+            "nome_bruto": "GDCOC0072 - CALCULO NUMERICO - 60CH",
+            "ementa": "Erros, Equações, Sistemas Lineares, Interpolação, Integração, Equações Diferenciais Ordinárias e Ajuste de Curvas"
+        },
+        {
+            "nome_bruto": "GDCOC0076 - ANÁLISE E PROJETO DE ALGORITMOS - 60CH",
+            "ementa": "Medidas de complexidade. Notação O. Avaliação crítica das complexidades para pesquisa, inserção e deleção em: conjuntos, arrays, pilhas, filas, árvores, grafos e tabelas hash. Avaliação de algoritmos de ordenação. Técnicas de projeto de algoritmos: divida e conquiste, balanceamento, backtracking, cobiçoso (greed), programação dinâmica. Análise amortizada. Problemas intratáveis: classe P, NP, NP-completa e NP-difícil. Algoritmos probabilísticos e heurístico-aproximados. Computação numérica com números enormes e criptografia. Estudos de casos (outrosalgoritmos)."
+        },
+        {
+            "nome_bruto": "GDSCO0027 - ELETRONICA APLICADA II - 60CH",
+            "ementa": "Efeitos de frequência: resposta em frequência de amplificadores CA e CC; gráfico de Bode; escalas em decibéis e decibéis relativos a um nível de referência; efeito Miller; análise de frequência em estágios BJT e FET. Amplificadores diferenciais: corrente de polarização de entrada, corrente de offset, tensão de offset de entrada; carga na saída de amplificadores diferenciais. Amplificadores operacionais: modelo ideal e modelo não-ideal, efeitos de erros, resposta em frequência, produto ganho-largura de frequência. Realimentação negativa: amplificadores de tensão e de corrente, conversores transcondutância e transresistência, estabilização de ganho e outros efeitos de realimentação negativa em amplificadores operacionais. Circuitos lineares com amplificadores operacionais: amplificador inversor, nãoinversor, somador, subtrator, derivador, integrador, amplificador de instrumentação. Sensores e transdutores. Circuitos não-lineares com amplificadores operacionais: Schmitttrigger, osciladores, conversores de forma de onda. Filtros ativos. Circuitos temporizadores. Introdução aos conversores D/A. Montagem de circuito real em placa de prototipação ou de circuito impresso."
+        },
+        {
+            "nome_bruto": "GDSCO0052 - INTRODUÇÃO À MECÂNICA DOS FLUÍDOS - 30CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0053 - INTRODUÇÃO À MICROELETRÔNICA - 60CH",
+            "ementa": ""
+        }
+    ],
+    "semestre6": [
+        {
+            "nome_bruto": "1107128 - ENGENHARIA DE SOFTWARE - 60CH",
+            "ementa": "EMENTA DA DISCIPLINA Objetivos. Princípios da Engenharia de Software. Qualidade de Software. Verificação de Software. Teste de Software. Manutenção de Software. Configuração de Software. Ferramentas e Ambientes para Engenharia de Software."
+        },
+        {
+            "nome_bruto": "5101003 - MICROCONTROLADORES - 60CH",
+            "ementa": "Microarquitetura de microcontroladores, microinstruções e microprogramas. Estudo particularizado de um microcontrolador: arquitetura, conjunto de instruções, registradores, interrupções, periféricos, gerenciamento de energia, programação e aplicações. Nesta disciplina estão inclusas atividades práticas de laboratório."
+        },
+        {
+            "nome_bruto": "5102007 - PESQUISA OPERACIONAL - 60CH",
+            "ementa": "Programação linear. Aplicações de Programação linear. Problemas de Atribuição e de Transporte. Problemas de Fluxos em redes. Problemas de Roteamento. PERT e CPM. Teoria de Filas. Simulação. Teoria de Estoques."
+        },
+        {
+            "nome_bruto": "GDSCO0062 - REDES DE COMPUTADORES I - 60CH",
+            "ementa": "Conceitos básicos de rede: modelo, camada, protocolo, serviços, arquitetura. Redes PAN, LAN, MAN e WAN. Topologias de rede. Arquiteturas de rede: modelo de referência RM/OSI-ISO e TCP/IP. Funcionalidades específicas das camadas dos modelos RM/OSI-ISSO e TCP/IP. Meios de transmissão. Endereçamento. Roteamento. Protocolos de Transporte. Interconexão de redes. Tecnologias e serviços de redes locais (LAN) e de longa distância (WAN). Sistemas operacionais de rede. Protocolos de Banco de Dados aplicação da família TCP/IP: funcionalidades básicas e operação."
+        },
+        {
+            "nome_bruto": "GDSCO0064 - SINAIS E SISTEMAS DINÂMICOS - 60CH",
+            "ementa": "Definições operacionais de sinais e de sistemas em engenharia. Propriedades de sinais e de sistemas. Generalização do conceito de tempo: tempo discreto e tempo contínuo. Propriedades de sinais: energia, potência instantânea, potência média, energia total. Operações sobre sinais. Transformações da variável independente: Reversão e deslocamento temporal; mudança de escala. Sinais sinusoidais e exponenciais e suas propriedades, periodicidade fase, relação entre atraso e fase em tempo discreto e tempo contínuo. Impulso e degrau unitários. Propriedades e classificação de sistemas. Memória, invertibilidade, causalidade, estabilidade, invariância temporal, linearidade. Convolução e resposta de sistemas lineares e invariantes no tempo (LIT). Variáveis de estado e sistemas representados por equações diferenciais e diferenças finitas. Série de Fourier e Transformada de Fourier em tempo contínuo e em tempo discreto. Relações de dualidade tempo-frequência. Filtros fundamentais e suas propriedades. Discretização por amostragem e interpolação. Teorema de amostragem (Nyquist) e recuperação de sinais de faixa limitada. Reamostragem (resampling) e Subamostragem (aliasing). Transformada de Laplace, suas propriedades e aplicações. Cálculos computacionais em softwares específicos."
+        },
+        {
+            "nome_bruto": "GDSCO0068 - SISTEMAS OPERACIONAIS I - 60CH",
+            "ementa": "Visão geral. Gerência de processos. Escalonamento de processos. Tratamento dedeadlocks (prevenção, impedimento e recuperação). Gerenciamento de memória principal. Gerenciamento de memória virtual (swap, paginação, segmentação e algoritmos de substituição de páginas). Controle de discos e de outros dispositivos deE/S. Estrutura e implementação de sistemas de arquivos."
+        }
+    ],
+    "semestre7": [
+        {
+            "nome_bruto": "5101001 - AVALIAÇÃO DE DESEMPENHO DE SISTEMAS OPERACIONAIS - 60CH",
+            "ementa": "Visão geral: conceitos básicos; classificação e técnicas de avaliação de desempenho de redes e sistemas; técnicas de medição: métricas e ferramentas; projeto prático de medição; sumarização e interpretação de resultados; técnicas de simulação; projeto experimental e análise de resultados; projeto prático de simulação; técnicas analíticas;caracterização da carga de trabalho; desafios da área de avaliação de desempenho de redes e sistemas"
+        },
+        {
+            "nome_bruto": "GDSCO0032 - REDES SEM FIO - 60CH",
+            "ementa": "Histórico, aplicações e aspectos socioeconômicos de serviços sem fio. Desafios tecnológicos da comunicação sem fio: fundamentos da transmissão sem fio e espectrode frequência. Sistemas sem fio padronizados: GSM, CDMA, WCDMA. Redes locais sem fio (WLAN’s): as famílias de protocolos IEEE 802.11 e IEEE 802.15. Exemplos deprojeto de redes sem fio. Redes de sensores sem fio, novas tecnologias."
+        },
+        {
+            "nome_bruto": "GDSCO0051 - INTRODUÇÃO À COMPUTAÇÃO GRÁFICA - 60CH",
+            "ementa": "Conceitos básicos: definição de imagem digital, formatos de arquivos de imagem, rasterização de retas e circunferências, dithering, halftoning. Transformações geométricas: o plano projetivo, transformações lineares, transformações projetivas, rotações, reflexões, translações e projeções no espaço tridimensional, gráficos de superfícies, eliminação de superfícies escondidas. Modelagem geométrica: representação paramétrica de curvas e superfícies, curvas de Bézier, curvas de B- Spline, superfícies de Bézier, superfícies B-Spline, NURBS."
+        },
+        {
+            "nome_bruto": "GDSCO0055 - INTRODUÇÃO AO PROCESSAMENTO DIGITAL DE IMAGENS - 60CH",
+            "ementa": "Imagem digital. Sistemas de processamento de imagens digitais. Elementos de percepção visual. Fundamentos de cor. Amostragem e quantização. Transformada de Fourier e outras transformadas úteis. Técnicas de modificação da escala de cinza. Operações com imagens. Filtragem. Pseudo Coloração. Restauração."
+        },
+        {
+            "nome_bruto": "GDSCO0065 - SISTEMAS E CONTROLE DE AUTOMAÇÃO - 60CH",
+            "ementa": "Introdução aos sistemas de controle. Representação de sistemas e funções de transferência. Representação de sistemas e funções em espaço de estados. Modelagem de sistemas dinâmicos. Análise de resposta de sistemas de primeira ordem. Análise de resposta de sistemas de segunda ordem. Pólos e zeros de uma função. Estabilidade e critérios de desempenho. Controladores lineares. Sintonia de controladores. Análise de desempenho de controladores. Projeto de sistemas de controle lineares. Análise e sintonia pelos métodos do lugar das raízes. Resposta em frequência. Método de Ziegler-Nichols. Projeto de controladores por espaço de estados. Estabilidade e observabilidade em espaço de estados."
+        },
+        {
+            "nome_bruto": "GDSCO0081 - SISTEMAS EMBARCADOS I - 60CH",
+            "ementa": "Conceitos de sistemas embarcados. Estudo de processadores dedicados e de propósito geral. Entrada e saída e periféricos. Sistema de memória. Comunicação entre processadores, periféricos e módulos de memória. Protocolos de comunicação.Projeto de sistemas embarcados: introdução ao projeto de sistemas embarcados; metodologias de projeto de sistemas embarcados; modelagem de sistemas embarcados. Sintetização de sistemas, de software e de hardware. Verificação de sistemas embarcados. Técnicas e ferramentas para o projeto de sistemas embarcados."
+        }
+    ],
+    "semestre8": [
+        {
+            "nome_bruto": "1107191 - INTRODUCAO A INTELIGENCIA ARTIFICIAL - 60CH",
+            "ementa": "1. Indrodução à Inteligência Artificial 2. Agentes Inteligentes 3. Resolução de problemas por meio de Buscas Cegas 4. Resolução de problemas por meio de Buscas Heurísticas 5. Representação do Conhecimento e Raciocínio 6. Inteligência Artificial Bio-inspirada (Redes Neurais, Computação Evolucionária, Computação Autonômica, Robótica, Inteligência Emergente, Vida Artificial)"
+        },
+        {
+            "nome_bruto": "GDSCO0028 - ROBOTICA - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0040 - CONCEPÇÃO ESTRUTURADA DE CIRCUITOS INTEGRADOS - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0054 - INTRODUÇÃO À TEORIA DA INFORMAÇÃO - 60CH",
+            "ementa": "Princípios de teoria da informação. Conceituação, medidas e codificação da informação. Incerteza e entropia. Sistemas de comunicação. Codificação de fonte. Compressão de dados sem perdas. Compressores estatísticos e baseados em dicionário. Compressão de dados com perdas. Técnicas avançadas de compressão de dados."
+        }
+    ],
+    "semestre9": [
+        {
+            "nome_bruto": "1201126 - ECONOMIA I - 60CH",
+            "ementa": "A ciência econômica seu objeto e método: uma introdução. Visão esquemática do sistema econômico: aspectos econômicos e sociais. Mercados. Função do estado e aspectos sociais das atividades econômicas."
+        },
+        {
+            "nome_bruto": "1204172 - ADMINISTRAÇÃO PARA ENGENHARIA - 45CH",
+            "ementa": "Uma visão sistêmica da empresa e dos vários entornos que influenciam e recebe influência do funcionamento da mesma. Procedimento e concepção de modelo de gestão a partir desse relacionamento e montagens de uma estrutura capaz de implementá-lo. Definição de alguns sub-sistemas de apoio a essa estrutura. Alguns princípios da conduta da gestão (análise histórica) e recomendações sobre o comportamento do gestor."
+        },
+        {
+            "nome_bruto": "GDINF0106 - COMPUTADORES E SOCIEDADE - 60CH",
+            "ementa": "Educação para as relações étnico-raciais. Conceitos de raça e etnia, mestiçagem, racismo e racialismo, preconceito e discriminação. Configurações dos conceitos de raça, etnia e cor no Brasil: entre as abordagens acadêmicas e sociais. Cultura afro-brasileira e indígena. Educação Sanitária e Ambiental. Avaliação de Impacto Ambiental. Políticas de Ações Afirmativas e Discriminação Positiva – a questão das cotas. Aplicações de computadores e sua influência na sociedade. Vantagens da automação. Aspectos legais, sociais, econômicos e éticos da utilização do computador. Ética profissional. Perspectivas futuras. Atuação do profissional no mercado de trabalho."
+        },
+        {
+            "nome_bruto": "GDSCO0029 - TRABALHO DE CONCLUSÃO DE CURSO I - ENG. DE COMPUTAÇÃO - 30CH",
+            "ementa": ""
+        }
+    ],
+    "semestre10": [
+        {
+            "nome_bruto": "GDSCO0030 - TRABALHO DE CONCLUSÃO DE CURSO II - ENG. DE COMPUTAÇÃO - 30CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0031 - ESTAGIO SUPERVISIONADO - ENGENHARIA DA COMPUTAÇÃO - 300CH",
+            "ementa": ""
+        }
+    ]
+}

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SigMatéria — Portal do Estudante</title>
+    <meta name="description" content="Entenda de vez por que cada matéria importa para a sua formação.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg:          #EDE8DD;
+            --card:        #F8F5EF;
+            --ink:         #1C1208;
+            --ink-mid:     #6B5840;
+            --ink-soft:    #A8957A;
+            --rust:        #C4512E;
+            --rust-bg:     rgba(196, 81, 46, 0.09);
+            --rust-bdr:    rgba(196, 81, 46, 0.22);
+            --rust-shadow: rgba(155, 45, 18, 0.32);
+            --sage:        #3C6347;
+            --sage-bg:     rgba(60, 99, 71, 0.09);
+            --sage-bdr:    rgba(60, 99, 71, 0.2);
+            --danger:      #B03020;
+            --bdr:         rgba(28, 18, 8, 0.1);
+            --radius:      8px;
+            /* spring: cubic-bezier with overshoot — física de molas */
+            --spring:      cubic-bezier(0.34, 1.56, 0.64, 1);
+            --ease:        cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        body {
+            font-family: 'DM Sans', -apple-system, sans-serif;
+            background: linear-gradient(155deg, #F2EDE2 0%, #E8E2D4 100%);
+            color: var(--ink);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ── Grain Overlay (canvas-generated in JS) ──────── */
+        .grain {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0.045;
+            background-size: 200px 200px;
+        }
+
+        /* ── Layout ──────────────────────────────────────── */
+        .app-wrapper {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px 96px;
+        }
+
+        /* ── Header ──────────────────────────────────────── */
+        .header {
+            padding: 64px 0 44px;
+            animation: slideUp 0.7s var(--spring) both;
+        }
+
+        .logo-lockup {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 28px;
+        }
+
+        .logo-mark {
+            width: 36px;
+            height: 36px;
+            background: var(--rust);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 17px;
+            color: #fff;
+            flex-shrink: 0;
+            box-shadow: 3px 3px 0 rgba(155, 45, 18, 0.35);
+        }
+
+        .logo-name {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--ink-mid);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        /* ── Intentional asymmetry in the title ─────────── */
+        .header h1 {
+            font-family: 'Fraunces', serif;
+            font-size: clamp(2.5rem, 7vw, 3.8rem);
+            font-weight: 700;
+            color: var(--ink);
+            letter-spacing: -0.04em;
+            line-height: 1.04;
+            margin-bottom: 22px;
+        }
+
+        .header h1 em {
+            font-style: italic;
+            color: var(--rust);
+            /* decorative underline — breaks the grid slightly */
+            text-decoration: underline;
+            text-decoration-color: rgba(196, 81, 46, 0.35);
+            text-underline-offset: 5px;
+            text-decoration-thickness: 2px;
+        }
+
+        /* Short editorial rule — not full-width, intentionally asymmetric */
+        .header-rule {
+            border: none;
+            border-top: 2px solid var(--bdr);
+            width: 48px;
+            margin-bottom: 20px;
+        }
+
+        .header .subtitle {
+            font-size: 1rem;
+            color: var(--ink-mid);
+            max-width: 420px;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        /* ── Step connector — physical world: thin ink line ─ */
+        .step-connector {
+            width: 1.5px;
+            height: 32px;
+            background: var(--bdr);
+            margin-left: 34px;
+        }
+
+        /* ── Cards ───────────────────────────────────────── */
+        /* Paper stack shadow: offset, not symmetric glow */
+        .glass-card {
+            background: var(--card);
+            border: 1px solid var(--bdr);
+            border-radius: var(--radius);
+            padding: 28px 30px 26px;
+            box-shadow: 5px 5px 0 rgba(28, 18, 8, 0.06);
+            position: relative;
+            transition: box-shadow 0.3s var(--ease), transform 0.3s var(--ease);
+        }
+
+        .glass-card:hover {
+            box-shadow: 7px 7px 0 rgba(28, 18, 8, 0.07);
+            transform: translate(-1px, -1px);
+        }
+
+        /* Card 1: left accent stripe */
+        #card-curso {
+            border-left: 3px solid var(--rust);
+            border-radius: 0 var(--radius) var(--radius) var(--radius);
+            animation: slideUp 0.7s var(--spring) 0.08s both;
+        }
+
+        /* Card 2: shifted right (zigue-zague) + right accent stripe */
+        #card-disciplinas {
+            margin-left: 22px;
+            border-right: 3px solid var(--rust);
+            border-radius: var(--radius) 0 var(--radius) var(--radius);
+            animation: slideUp 0.7s var(--spring) 0.16s both;
+        }
+
+        .card-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 22px;
+        }
+
+        .card-title-text {
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: var(--ink-mid);
+        }
+
+        .step-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 23px;
+            height: 23px;
+            background: var(--rust);
+            color: #fff;
+            border-radius: 50%;
+            font-size: 0.7rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .counter {
+            font-size: 0.75rem;
+            background: var(--rust-bg);
+            color: var(--rust);
+            padding: 2px 9px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-left: auto;
+        }
+
+        /* ── Form ────────────────────────────────────────── */
+        .form-group { margin-bottom: 18px; }
+
+        .form-group label {
+            display: block;
+            font-size: 0.76rem;
+            font-weight: 500;
+            color: var(--ink-soft);
+            margin-bottom: 7px;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+        }
+
+        .custom-select { position: relative; }
+
+        .custom-select select {
+            width: 100%;
+            padding: 11px 40px 11px 13px;
+            background: var(--bg);
+            border: 1.5px solid var(--bdr);
+            border-radius: var(--radius);
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.93rem;
+            cursor: pointer;
+            appearance: none;
+            -webkit-appearance: none;
+            outline: none;
+            transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+        }
+
+        .custom-select select option { color: var(--ink); background: #F8F5EF; }
+
+        .custom-select select:focus {
+            border-color: var(--rust);
+            box-shadow: 0 0 0 3px rgba(196, 81, 46, 0.1);
+        }
+
+        .custom-select select:disabled { opacity: 0.42; cursor: not-allowed; }
+
+        .custom-select::after {
+            content: '↓';
+            position: absolute;
+            right: 13px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--ink-soft);
+            pointer-events: none;
+            font-size: 0.85rem;
+        }
+
+        /* ── Chips ───────────────────────────────────────── */
+        .chips-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+            min-height: 34px;
+            margin-top: 10px;
+        }
+
+        /* Spring entrance: scale + slight rotation = organic feel */
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 11px;
+            background: var(--rust-bg);
+            border: 1px solid var(--rust-bdr);
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--rust);
+            animation: chipIn 0.45s var(--spring) both;
+            cursor: default;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .chip:hover {
+            background: rgba(176, 48, 32, 0.1);
+            border-color: rgba(176, 48, 32, 0.3);
+            color: var(--danger);
+        }
+
+        .chip .remove-btn {
+            cursor: pointer;
+            font-size: 0.95rem;
+            line-height: 1;
+            opacity: 0.6;
+            transition: opacity 0.15s;
+        }
+        .chip .remove-btn:hover { opacity: 1; }
+
+        .chips-placeholder {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 0;
+            font-size: 0.83rem;
+            color: var(--ink-soft);
+        }
+
+        /* ── Submit ──────────────────────────────────────── */
+        .submit-row {
+            display: flex;
+            justify-content: flex-end; /* assimetria: botão no canto direito */
+            animation: slideUp 0.7s var(--spring) 0.24s both;
+        }
+
+        .btn-submit {
+            padding: 14px 28px;
+            background: var(--rust);
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            letter-spacing: 0.01em;
+            /* Physical paper feel: offset shadow */
+            box-shadow: 3px 3px 0 var(--rust-shadow);
+            transition: transform 0.4s var(--spring), box-shadow 0.25s var(--ease);
+            position: relative;
+        }
+
+        /* Física de molas: spring bounce on hover */
+        .btn-submit:hover:not(:disabled) {
+            transform: translate(-2px, -3px) scale(1.02);
+            box-shadow: 5px 6px 0 var(--rust-shadow), 0 12px 28px rgba(196, 81, 46, 0.18);
+        }
+
+        /* Physical press on click */
+        .btn-submit:active:not(:disabled) {
+            transform: translate(1px, 1px) scale(0.98);
+            box-shadow: 1px 1px 0 var(--rust-shadow);
+            transition: transform 0.1s var(--ease), box-shadow 0.1s var(--ease);
+        }
+
+        .btn-submit:disabled { opacity: 0.36; cursor: not-allowed; }
+
+        .spinner {
+            display: none;
+            width: 17px;
+            height: 17px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-top-color: #fff;
+            border-radius: 50%;
+            animation: spin 0.75s linear infinite;
+        }
+        .btn-submit.loading .btn-text { display: none; }
+        .btn-submit.loading .spinner  { display: inline-block; }
+
+        /* ── Response Card ───────────────────────────────── */
+        #response-area { margin-top: 4px; }
+
+        .response-section {
+            animation: slideUp 0.55s var(--spring) both;
+        }
+
+        .response-card {
+            background: var(--card);
+            border: 1px solid var(--bdr);
+            /* Sage green top bar — visual transition from rust to success state */
+            border-top: 3px solid var(--sage);
+            border-radius: 0 var(--radius) var(--radius) var(--radius);
+            padding: 26px 30px;
+            box-shadow: 5px 5px 0 rgba(28, 18, 8, 0.06);
+            margin-top: 32px;
+        }
+
+        .response-header {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            margin-bottom: 16px;
+            font-size: 0.76rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--sage);
+        }
+
+        .response-header .dot {
+            width: 7px;
+            height: 7px;
+            background: var(--sage);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .response-body {
+            font-size: 0.95rem;
+            line-height: 1.78;
+            color: var(--ink);
+            white-space: pre-wrap;
+        }
+
+        .response-body strong, .response-body b {
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        .response-body h1, .response-body h2, .response-body h3 {
+            font-family: 'Fraunces', serif;
+            font-weight: 600;
+            color: var(--ink);
+            margin: 18px 0 8px;
+        }
+
+        .response-body ul, .response-body ol { padding-left: 20px; margin: 8px 0; }
+        .response-body li { margin-bottom: 5px; }
+
+        .response-body code {
+            background: var(--rust-bg);
+            padding: 1px 5px;
+            border-radius: 3px;
+            font-size: 0.87em;
+            color: var(--rust);
+        }
+
+        /* ── Error ───────────────────────────────────────── */
+        .error-card {
+            background: rgba(176, 48, 32, 0.06);
+            border: 1px solid rgba(176, 48, 32, 0.2);
+            border-radius: var(--radius);
+            padding: 18px 22px;
+            color: var(--danger);
+            font-size: 0.9rem;
+            margin-top: 28px;
+        }
+
+        /* ── Animations ──────────────────────────────────── */
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(18px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Spring chip: scale + slight tilt for organic feel */
+        @keyframes chipIn {
+            from { opacity: 0; transform: scale(0.6) rotate(-3deg); }
+            to   { opacity: 1; transform: scale(1) rotate(0deg); }
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50%       { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        /* ── Responsive ──────────────────────────────────── */
+        @media (max-width: 600px) {
+            .app-wrapper       { padding: 0 16px 64px; }
+            .header            { padding: 40px 0 32px; }
+            .header h1         { font-size: 2.3rem; }
+            .glass-card        { padding: 22px 18px; }
+            #card-disciplinas  { margin-left: 10px; }
+        }
+
+        /* ── Scrollbar ───────────────────────────────────── */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-thumb { background: var(--bdr); border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <!-- Grain overlay — canvas-generated, simulates papel/filme fotográfico -->
+    <div class="grain"></div>
+
+    <div class="app-wrapper">
+
+        <!-- Header: left-aligned, serif + sans mix -->
+        <header class="header">
+            <div class="logo-lockup">
+                <div class="logo-mark">S</div>
+                <span class="logo-name">SigMatéria</span>
+            </div>
+            <h1>Pra que serve essa<br><em>matéria?</em></h1>
+            <hr class="header-rule">
+            <p class="subtitle">Ainda se perguntando por que Cálculo 2 existe na sua grade? Escolha seu curso e as disciplinas que te deixam em dúvida — a gente explica sem enrolação.</p>
+        </header>
+
+        <!-- Step track: zigue-zague intencional -->
+        <div class="step-track">
+
+            <!-- Step 1 -->
+            <div class="glass-card" id="card-curso">
+                <div class="card-title">
+                    <span class="step-badge">1</span>
+                    <span class="card-title-text">Qual é o seu curso?</span>
+                </div>
+                <div class="form-group">
+                    <label for="select-curso">Curso</label>
+                    <div class="custom-select">
+                        <select id="select-curso">
+                            <option value="" disabled selected>Carregando cursos…</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-connector"></div>
+
+            <!-- Step 2: shifted right — zigue-zague -->
+            <div class="glass-card" id="card-disciplinas">
+                <div class="card-title">
+                    <span class="step-badge">2</span>
+                    <span class="card-title-text">Que matérias te deixam na dúvida?</span>
+                    <span class="counter" id="counter-disciplinas">0 selecionadas</span>
+                </div>
+                <div class="form-group">
+                    <label for="select-disciplina">Adicionar disciplina</label>
+                    <div class="custom-select">
+                        <select id="select-disciplina" disabled>
+                            <option value="" disabled selected>Primeiro escolha o curso acima</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="chips-container" id="chips-container">
+                    <div class="chips-placeholder" id="chips-placeholder">
+                        <span>—</span> As matérias escolhidas aparecem aqui
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-connector"></div>
+
+            <!-- Submit: right-aligned (assimetria de endpoint) -->
+            <div class="submit-row">
+                <button class="btn-submit" id="btn-submit" disabled>
+                    <span class="btn-text">Descobrir de uma vez →</span>
+                    <div class="spinner"></div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Response injected here by JS -->
+        <div id="response-area"></div>
+
+    </div>
+
+    <script>
+        // ── Grain texture (física do mundo real: papel fotográfico) ──
+        (function () {
+            const c = document.createElement('canvas');
+            c.width = c.height = 200;
+            const ctx = c.getContext('2d');
+            const img = ctx.createImageData(200, 200);
+            for (let i = 0; i < img.data.length; i += 4) {
+                const v = Math.random() * 255 | 0;
+                img.data[i] = img.data[i + 1] = img.data[i + 2] = v;
+                img.data[i + 3] = 255;
+            }
+            ctx.putImageData(img, 0, 0);
+            document.querySelector('.grain').style.backgroundImage = `url(${c.toDataURL()})`;
+        })();
+
+        // ── State ────────────────────────────────────────────────────
+        const API_BASE = window.location.origin;
+        let cursosData = [];
+        let disciplinasSelecionadas = [];
+        let cursoAtualId = '';
+        let cursoAtualNome = '';
+
+        // ── DOM refs ─────────────────────────────────────────────────
+        const selectCurso      = document.getElementById('select-curso');
+        const selectDisciplina = document.getElementById('select-disciplina');
+        const chipsContainer   = document.getElementById('chips-container');
+        const chipsPlaceholder = document.getElementById('chips-placeholder');
+        const counterEl        = document.getElementById('counter-disciplinas');
+        const btnSubmit        = document.getElementById('btn-submit');
+        const responseArea     = document.getElementById('response-area');
+
+        // ── Load courses ─────────────────────────────────────────────
+        async function carregarCursos() {
+            try {
+                const res = await fetch(`${API_BASE}/cursos`);
+                if (!res.ok) throw new Error('Falha ao carregar cursos');
+                cursosData = await res.json();
+                selectCurso.innerHTML = '<option value="" disabled selected>Escolha seu curso</option>';
+                cursosData.forEach(c => {
+                    const opt = document.createElement('option');
+                    opt.value = c.id;
+                    opt.textContent = c.nome;
+                    selectCurso.appendChild(opt);
+                });
+            } catch (err) {
+                selectCurso.innerHTML = '<option value="" disabled selected>Erro ao carregar cursos</option>';
+                console.error(err);
+            }
+        }
+
+        // ── Load disciplines ─────────────────────────────────────────
+        async function carregarDisciplinas(cursoId) {
+            selectDisciplina.disabled = true;
+            selectDisciplina.innerHTML = '<option value="" disabled selected>Carregando…</option>';
+            try {
+                const res = await fetch(`${API_BASE}/disciplinas/${cursoId}`);
+                if (!res.ok) throw new Error('Falha ao carregar disciplinas');
+                const data = await res.json();
+                cursoAtualId = data.curso_id;
+                cursoAtualNome = data.curso_nome;
+                selectDisciplina.innerHTML = '<option value="" disabled selected>Escolha uma disciplina para adicionar</option>';
+                data.disciplinas.forEach(d => {
+                    const opt = document.createElement('option');
+                    opt.value = d;
+                    opt.textContent = d;
+                    selectDisciplina.appendChild(opt);
+                });
+                selectDisciplina.disabled = false;
+                disciplinasSelecionadas = [];
+                renderChips();
+                updateCounter();
+                updateSubmitBtn();
+                responseArea.innerHTML = '';
+            } catch (err) {
+                selectDisciplina.innerHTML = '<option value="" disabled selected>Erro ao carregar</option>';
+                console.error(err);
+            }
+        }
+
+        function adicionarDisciplina(nome) {
+            if (!nome || disciplinasSelecionadas.includes(nome)) return;
+            disciplinasSelecionadas.push(nome);
+            renderChips();
+            updateCounter();
+            updateSubmitBtn();
+            selectDisciplina.selectedIndex = 0;
+        }
+
+        function removerDisciplina(nome) {
+            disciplinasSelecionadas = disciplinasSelecionadas.filter(d => d !== nome);
+            renderChips();
+            updateCounter();
+            updateSubmitBtn();
+        }
+
+        function renderChips() {
+            chipsContainer.querySelectorAll('.chip').forEach(c => c.remove());
+            if (disciplinasSelecionadas.length === 0) {
+                chipsPlaceholder.style.display = 'flex';
+            } else {
+                chipsPlaceholder.style.display = 'none';
+                disciplinasSelecionadas.forEach(nome => {
+                    const chip = document.createElement('div');
+                    chip.className = 'chip';
+                    const nomeClean = nome.replace(/^[\w\d]+ - /, '');
+                    chip.innerHTML = `<span>${nomeClean}</span><span class="remove-btn" title="Remover">×</span>`;
+                    chip.querySelector('.remove-btn').addEventListener('click', () => removerDisciplina(nome));
+                    chipsContainer.appendChild(chip);
+                });
+            }
+        }
+
+        function updateCounter() {
+            const n = disciplinasSelecionadas.length;
+            counterEl.textContent = `${n} selecionada${n !== 1 ? 's' : ''}`;
+        }
+
+        function updateSubmitBtn() {
+            btnSubmit.disabled = disciplinasSelecionadas.length === 0;
+        }
+
+        async function enviarPergunta() {
+            if (disciplinasSelecionadas.length === 0) return;
+            btnSubmit.classList.add('loading');
+            btnSubmit.disabled = true;
+            responseArea.innerHTML = '';
+            try {
+                const res = await fetch(`${API_BASE}/chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        curso_id:   cursoAtualId,
+                        curso_nome: cursoAtualNome,
+                        disciplinas: disciplinasSelecionadas,
+                    }),
+                });
+                if (!res.ok) {
+                    const errData = await res.json().catch(() => ({}));
+                    throw new Error(errData.detail || `Erro ${res.status}`);
+                }
+                const data = await res.json();
+                mostrarResposta(data.resposta);
+            } catch (err) {
+                responseArea.innerHTML = `<div class="error-card">⚠ <strong>Erro:</strong> ${err.message}</div>`;
+            } finally {
+                btnSubmit.classList.remove('loading');
+                btnSubmit.disabled = false;
+            }
+        }
+
+        function mostrarResposta(texto) {
+            let html = texto
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
+                .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
+                .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
+                .replace(/^- (.*?)$/gm, '<li>$1</li>')
+                .replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>')
+                .replace(/<\/ul>\s*<ul>/g, '')
+                .replace(/\n/g, '<br>');
+
+            responseArea.innerHTML = `
+                <div class="response-section">
+                    <div class="response-card">
+                        <div class="response-header">
+                            <div class="dot"></div>
+                            ${cursoAtualNome}
+                        </div>
+                        <div class="response-body">${html}</div>
+                    </div>
+                </div>`;
+
+            responseArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // ── Events ───────────────────────────────────────────────────
+        selectCurso.addEventListener('change', e => carregarDisciplinas(e.target.value));
+        selectDisciplina.addEventListener('change', e => adicionarDisciplina(e.target.value));
+        btnSubmit.addEventListener('click', enviarPergunta);
+
+        carregarCursos();
+    </script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+{
+    "semestre1": [
+        {
+            "nome_bruto": "1103118 - CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA - 60CH",
+            "ementa": "Vetores no espaço. Retas e Planos. Cônicas. Superfícies Quádricas."
+        },
+        {
+            "nome_bruto": "1103177 - CÁLCULO DIFERENCIAL E INTEGRAL I - 60CH",
+            "ementa": "Funções reais de uma variável real. Limite e Continuidade. Derivadas: conceito, regras e aplicações."
+        },
+        {
+            "nome_bruto": "1107136 - INTRODUÇÃO A PROGRAMAÇÃO - 60CH",
+            "ementa": "ALTERADA EM CONFORMIDADE COM A RESOLUÇÃO nº 37/2023 - CONSEPE: Histórico das linguagens de programação. Descrição e construção de algoritmos. Metodologia de programação. Introdução à uma linguagem de programação moderna: tipos elementares e compostos de dados; operadores; expressões e funções; mecanismos de passagem de parâmetros; variáveis e comandos; procedimentos; recursividade; tipos definidos pelo programador e tipos abstratos de dados; noções de estruturas dinâmicas de dados. Aplicações práticas. ANTERIORMENTE: Histórico das linguagens de programação. Descrição de algoritmos. Construção de algoritmos, utilizando uma linguagem algorítmica. Aplicações. Introdução a uma linguagem de programação estruturada. Metodologia de programação."
+        },
+        {
+            "nome_bruto": "1107137 - INTRODUCAO AO COMPUTADOR - 60CH",
+            "ementa": "Evolução histórica dos computadores - Arquitetura básica de um computador - Sistemas de numeração e representação de dados - Introdução aos sistemas operacionais - Introdução às redes de computadores e à internet."
+        },
+        {
+            "nome_bruto": "1107201 - METODOLOGIA DO TRABALHO CIENTIFICO - 45CH",
+            "ementa": "Conhecimento e ciência. A ciência moderna e o contexto sociocultural. Ciência e método cientifico. Técnica de estudo: técnica de leitura, de resumir e elaborar fechamentos,. Produção científica e apresentação estética de trabalhos acadêmicos: position paper, resenhas, relatórios, ensaios, artigo e monografias."
+        }
+    ],
+    "semestre2": [
+        {
+            "nome_bruto": "1103178 - CÁLCULO DIFERENCIAL E INTEGRAL II - 60CH",
+            "ementa": "Integral de funções uma variável real. Funções reais de várias variáveis: limite e continuidade. Derivadas Parciais e Diferenciabilidade. Regra da Cadeia e derivação implícita. Máximos e Mínimos. Multiplicadores de Lagrange."
+        },
+        {
+            "nome_bruto": "1103179 - INTRODUÇÃO À ÁLGEBRA LINEAR - 60CH",
+            "ementa": "Espaços Vetoriais. Aplicações Lineares e Matrizes. Diagonalização de Operadores. Produto Interno."
+        },
+        {
+            "nome_bruto": "1107259 - MATEMÁTICA DISCRETA - 60CH",
+            "ementa": "Introdução à lógica proposicional. Contagem e combinatória: princípios de adição, princípios do produto, listas, fatorial, arranjo, permutações, combinações, com e sem repetição de elementos, subconjuntos e triângulo de Pascal. Relações: conceito, funções como relações, propriedades, equivalências. Indução Matemática: princípios, indução forte, visão recursiva, indução estrutural, recorrências. Sequências e somatórios. Inferência e prova: regras de inferência, prova direta, prova por indução, prova por contradição, prova por construção e prova por absurdo."
+        },
+        {
+            "nome_bruto": "DINF00079 - PROGRAMAÇÃO ESTRUTURADA - 60CH",
+            "ementa": "Introdução à linguagem C: tipos elementares; operadores e expressões. Estruturas de controle: decisão e repetição. Ponteiros e funções. Passagem por valor e referência. Recursividade. Arranjos e matrizes. Strings. Programação multiarquivo. Processamento de arquivos. Tipos definidos pelo programador e tipos abstratos de dados. Alocação dinâmica de memória. Sockets. Aplicações práticas."
+        },
+        {
+            "nome_bruto": "GDCOC0089 - INTRODUÇÃO À CIÊNCIA DE DADOS - 60CH",
+            "ementa": "Conceitos introdutórios de Ciência de Dados: Big Data e Data Driven Economy; a ciência dos dados e as organizações; inteligência estratégica baseada em dados; mineração de dados; aprendizagem de máquina; aprendizagem estatística; redes neurais. Análise exploratória de dados: tipos de variáveis; limpeza de dados; dados faltantes; outliers; distribuições de frequências; medidas de posição e dispersão. Ferramentas computacionais para tratamento, análise e visualização de dados: histogramas, Boxplot."
+        }
+    ],
+    "semestre3": [
+        {
+            "nome_bruto": "1103232 - CÁLCULO DIFERENCIAL E INTEGRAL III - 60CH",
+            "ementa": "Integral Dupla e Integral Tripla. Integral de Linha. Integral de Superfície."
+        },
+        {
+            "nome_bruto": "1107186 - ESTRUTURA DE DADOS - 60CH",
+            "ementa": "Conceitos básicos: valores, tipos abstratos, independência de representação. Estruturas lineares. Árvores: binárias, equilibradas, de pesquisa, heap. Grafos. Exemplos e Aplicações práticas."
+        },
+        {
+            "nome_bruto": "5102009 - ALGEBRA LINEAR COMPUTACIONAL - 60CH",
+            "ementa": "Fundamentos: multiplicação matriz-vetor; produto interno; matrizes e vetores ortogonais; matriz esparsa; normas. Sistemas lineares: métodos diretos: decomposição LU, decomposição de Cholesky; métodos Iterativos: gradiente conjugado, métodos pré-condicionados. Operadores lineares: decomposição de valor singular (SVD); projeção ortogonal; decomposição QR; ortogonalização de Gram-Schmidt; método de Householder; autovalores e autovetores; método dos mínimos quadrados."
+        },
+        {
+            "nome_bruto": "DINF00078 - PROGRAMAÇÃO ORIENTADA A OBJETOS - 60CH",
+            "ementa": "Conceitos e terminologias de orientação a objetos: objetos; classes; métodos e mensagens; herança simples e múltipla; polimorfismo; sistemas de tipos. Classificação de linguagens baseadas em objetos. Projeto orientado a objetos. Introdução a uma linguagem de programação orientada a objetos. Aplicações práticas."
+        },
+        {
+            "nome_bruto": "GDCOC0102 - TEORIA DAS PROBABILIDADES - 60CH",
+            "ementa": "Definições básicas: fundamentos de probabilidade; probabilidade condicional; teoremas de probabilidade; independência; variáveis aleatórias: tipos de variáveis aleatórias, funções de variáveis aleatórias; esperança matemática; distribuições de probabilidade; vetores aleatórios; distribuição conjunta. Distribuições marginais. Distribuições condicionadas. Esperança e variância condicionadas. Covariância. Transformação de variáveis. Distribuição da soma, produto e quociente de variáveis aleatórias."
+        }
+    ],
+    "semestre4": [
+        {
+            "nome_bruto": "GDSCO0055 - INTRODUÇÃO AO PROCESSAMENTO DIGITAL DE IMAGENS - 60CH",
+            "ementa": "Imagem digital. Sistemas de processamento de imagens digitais. Elementos de percepção visual. Fundamentos de cor. Amostragem e quantização. Transformada de Fourier e outras transformadas úteis. Técnicas de modificação da escala de cinza. Operações com imagens. Filtragem. Pseudo Coloração. Restauração."
+        },
+        {
+            "nome_bruto": "1107180 - BANCO DE DADOS I - 60CH",
+            "ementa": "Introdução aos sistemas de gerência de bancos de dados. Projeto de banco de dados: conceitual, lógico e físico. Modelo conceitual de entidades e relacionamentos. Modelo de dados relacional. Dependências funcionais e normalização. Linguagens de definição e de manipulação de dados. Álgebra relacional e SQL. Restrições de integridade e visões. Organização física de bancos de dados: técnicas de armazenamento e indexação."
+        },
+        {
+            "nome_bruto": "5102007 - PESQUISA OPERACIONAL - 60CH",
+            "ementa": "Programação linear. Aplicações de Programação linear. Problemas de Atribuição e de Transporte. Problemas de Fluxos em redes. Problemas de Roteamento. PERT e CPM. Teoria de Filas. Simulação. Teoria de Estoques."
+        },
+        {
+            "nome_bruto": "GDCOC0093 - MÉTODOS MATEMÁTICOS I - 60CH",
+            "ementa": "Sequências e séries numéricas. Séries de Potências. Espaços vetoriais com produto interno. Funcionais lineares. Espaço dual. Operadores positivos, unitários e normais. O teorema espectral. Formas bilineares"
+        },
+        {
+            "nome_bruto": "GDCOC0100 - PESQUISA APLICADA À CIÊNCIA DE DADOS - 45CH",
+            "ementa": "Ciência e tecnologia: Aspectos conceituais. A pesquisa e a construção do conhecimento. A pesquisa e sua interface nas áreas de Ciência de Dados e Inteligência Artificial. Métodos e técnicas de pesquisa acadêmica. Tipos e técnicas de pesquisa. Normatização da produção acadêmica: normas da ABNT, elaboração de projetos e relatórios."
+        },
+        {
+            "nome_bruto": "GDCOC0104 - INTRODUÇÃO A INTELIGÊNCIA ARTIFICIAL - 60CH",
+            "ementa": "Introdução e histórico da IA. O que é e o que não é IA. Resolução de problemas usando busca. Algoritmo A*. Busca local e heurísticas. Busca com adversários (jogos). Introdução à probabilidade. Redes Bayesianas. Introdução ao aprendizado de máquina. Problemas de decisão de Markov e aprendizado por reforço. Processamento de linguagem natural. Representação do conhecimento."
+        },
+        {
+            "nome_bruto": "GDCOC0107 - INFERÊNCIA ESTATÍSTICA - 60CH",
+            "ementa": "Teoremas de convergência estocástica. Distribuição amostral. Estimadores pontuais e suas propriedades. Métodos de estimação pontual. Estimação intervalar. Testes de hipóteses. Introdução à inferência bayesiana: distribuições à priori e à posteriori; famílias conjugadas; função perda e estimador de Bayes. Introdução à inferência não-paramétrica: testes de aderência; testes para comparação de populações; coeficientes e testes deconcordância e correlação."
+        }
+    ],
+    "semestre5": [
+        {
+            "nome_bruto": "5102050 - PROGRAMAÇÃO LINEAR INTEIRA - 60CH",
+            "ementa": "Programação Linear Inteira: formulações e complexidade. Otimalidade: relaxações e limitantes. Relaxação Lagrangeana: método do subgradiente e heurísticas lagrangeanas. Problemas de PLI bem resolvidos e Unimodularidade Total. Algoritmos de Branch-and-Bound para PLI. O método de geração de colunas. Algoritmos de Planos-de-Corte para PLI. Desigualdades Válidas Fortes e técnicas de lifting, Combinatória Poliédrica, O problema da separação."
+        },
+        {
+            "nome_bruto": "GDCOC0070 - OTIMIZAÇÃO DE GRANDE PORTE - 60CH",
+            "ementa": "Problemas de programação matemática de grande porte com estrutura especial. Métodos de primeira-ordem para otimização de grande porte: métodos do gradiente e do subgradiente, método do gradiente conjugado, método do gradiente proximal. Dualização. Relaxação e restrição. Resolução por partes. Linearização interna e externa. Relaxação Lagrangeana de problemas decomponíveis. Princípio de decomposição de Dantzig-Wolfe. Geração de colunas em programas lineares e convexos. Método de decomposição de Benders. Algoritmos de pontos interiores. Aplicações."
+        },
+        {
+            "nome_bruto": "GDCOC0114 - SÉRIES TEMPORAIS - 60CH",
+            "ementa": "Introdução aos modelos de séries temporais. Alisamento exponencial. Modelos de médias móveis e função de autocorrelação. Modelos autorregressivos e função de autocorrelação parcial. Modelos autorregressivos e de médias móveis. Modelos ARIMA. Sazonalidade: SARMA e SARIMA. Modelagem de séries temporais com variáveis exógenas."
+        },
+        {
+            "nome_bruto": "GDSCO0036 - ARQUITETURA DE COMPUTADORES I - 60CH",
+            "ementa": "Máquinas multinível. Nível da lógica digital. Blocos funcionais do computador. Execução de programas pelo processador: caminho de dados e controle. Passos paraa execução da instrução. Tipos de conjuntos de instruções (RISC e CISC). Funcionamento da unidade de controle. Caminhos de dados com pipeline. Arquitetura do conjunto de instruções. Instruções e endereçamento. Procedimentos e dados (pilha). Programação em linguagem assembly. Microarquitetura. Entrada/saída e interfaceamento. Dispositivos de entrada/saída. Interrupções. Barramentos. Acesso à memória e DMA. Hierarquia de memória."
+        },
+        {
+            "nome_bruto": "GDCOC0076 - ANÁLISE E PROJETO DE ALGORITMOS - 60CH",
+            "ementa": "Medidas de complexidade. Notação O. Avaliação crítica das complexidades para pesquisa, inserção e deleção em: conjuntos, arrays, pilhas, filas, árvores, grafos e tabelas hash. Avaliação de algoritmos de ordenação. Técnicas de projeto de algoritmos: divida e conquiste, balanceamento, backtracking, cobiçoso (greed), programação dinâmica. Análise amortizada. Problemas intratáveis: classe P, NP, NP-completa e NP-difícil. Algoritmos probabilísticos e heurístico-aproximados. Computação numérica com números enormes e criptografia. Estudos de casos (outrosalgoritmos)."
+        },
+        {
+            "nome_bruto": "GDCOC0090 - OTIMIZAÇÃO NÃO-LINEAR - 60CH",
+            "ementa": "Funções convexas. Conjuntos convexos. Condições de otimalidade para problemas de otimização sem restrições. Condições de otimalidade de Karush-Kuhn-Tucker. Programação linear e quadrática. Algoritmos e métodos para problemas de otimização não-linear: gradiente descendente; gradiente conjugado; método de Newton; métodos Quase- Newton; Gradiente descendente estocástico. Aplicações em problemas de estatística e aprendizado de máquinas."
+        },
+        {
+            "nome_bruto": "GDCOC0091 - TEORIA DOS GRAFOS APLICADA - 60CH",
+            "ementa": "Conceitos de grafos: vértices; arestas; matrizes de adjacências; graus; componentes conectados. Busca em grafos. Medidas de distância e de centralidade. Caminhos. Difusão de informações. Detecção de comunidades. Interpretação de topologias de rede. Exemplos de mundo real: formação de opinião e contágio; redes sociais. Software para gestão de redes. Otimização em grafos."
+        },
+        {
+            "nome_bruto": "GDCOC0092 - APRENDIZAGEM DE MÁQUINA - 60CH",
+            "ementa": "Introdução à aprendizagem de máquina. Gradiente descendente estocástico. Viés, variância, overfitting e underfitting. Regularização. Técnicas de validação. Modelos de regressão: regressão linear; regressão logística; análise de diagnóstico; modelos lineares generalizados e análise de resíduos. Aprendizado baseado em instâncias (KNN). Árvores de decisão e florestas aleatórias. Métodos ensemble. Classificadores probabilísticos (Naive Bayes). Máquinas de vetor de suporte."
+        },
+        {
+            "nome_bruto": "GDCOC0105 - EQUAÇÕES DIFERENCIAIS ORDINÁRIAS - 60CH",
+            "ementa": "Equações de primeira ordem: o método das aproximações sucessivas de Picard; métodos numéricos explícitos, implícitos, de passo simples, de passo múltiplo e do tipo previsores-corretores; noções de consistência, estabilidade e convergência de métodos numéricos; aplicações a problemas relacionados a taxas de variação. Equações de segunda ordem: o método das características para equações com coeficientes constantes; o método de diferenças finitas para problemas de contorno em geral; aplicações a problemas com comportamento vibratório."
+        }
+    ],
+    "semestre6": [
+        {
+            "nome_bruto": "GDCOC0115 - CIÊNCIA DE DADOS EM FINANÇAS - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDCOC0116 - RECUPERAÇÃO DA INFORMAÇÃO - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDSCO0068 - SISTEMAS OPERACIONAIS I - 60CH",
+            "ementa": "Visão geral. Gerência de processos. Escalonamento de processos. Tratamento dedeadlocks (prevenção, impedimento e recuperação). Gerenciamento de memória principal. Gerenciamento de memória virtual (swap, paginação, segmentação e algoritmos de substituição de páginas). Controle de discos e de outros dispositivos deE/S. Estrutura e implementação de sistemas de arquivos."
+        },
+        {
+            "nome_bruto": "1107128 - ENGENHARIA DE SOFTWARE - 60CH",
+            "ementa": "EMENTA DA DISCIPLINA Objetivos. Princípios da Engenharia de Software. Qualidade de Software. Verificação de Software. Teste de Software. Manutenção de Software. Configuração de Software. Ferramentas e Ambientes para Engenharia de Software."
+        },
+        {
+            "nome_bruto": "GDCOC0094 - APRENDIZADO PROFUNDO - 60CH",
+            "ementa": "Fundamentos matemáticos para redes neurais. Perceptrons e multi-Layer perceptrons. Deep learn. Redes feedforward. Backpropagation. Regularização. Performance. Avaliação do aprendizado. Tarefas e arquiteturas de redes neurais: Convolutional neural networks (CNNs). Modelos sequenciais: recurrent neural networks (RNNs); long short term memory networks (LSTMs); generative adversarial networks (GANs). Transfer learning. Hopfield networks. Boltzmann machine network. Deep belief networks. Deep autoencoders. Capsule networks. deep learning para PLN. Pesquisa em deep learn. Modelos open source. Algoritmos. Plataformas de hardware e software. Exemplos. Bibliografia Obrigatória:"
+        },
+        {
+            "nome_bruto": "GDCOC0095 - ANÁLISE MULTIVARIADA E APRENDIZAGEM NÃO SUPERVISIONADO - 60CH",
+            "ementa": "A distribuição normal multivariada; Estimação da média e da matriz de covariâncias. Classificação de observações: o problema de classificações; classificação em uma ou mais populações normais multivariadas; regra de decisão bayesiana; análise discriminante linear; classificação de vizinhos mais próximos. Análise de componentes principais: definição; estimação via máxima verossimilhança. Análise de correlação canônica: correlações canônicas; estimação de correlações canônicas. Análise fatorial: definição do modelo; estimação para os fatores ortogonais aleatórios; estimação de fatores fixos; interpretação dos fatores e transformações. Análise de agrupamentos (clusters): algoritmo de k-médias; mistura de variáveis gaussianas; algoritmo EM para o ajuste de mistura de variáveis gaussianas."
+        },
+        {
+            "nome_bruto": "GDCOC0103 - METÓDOS NUMÉRICOS I - 60CH",
+            "ementa": "Erros. Raízes de equações e sistemas não-lineares. Interpolação. Integração. Ajuste de curvas."
+        },
+        {
+            "nome_bruto": "GDINF0106 - COMPUTADORES E SOCIEDADE - 60CH",
+            "ementa": "Educação para as relações étnico-raciais. Conceitos de raça e etnia, mestiçagem, racismo e racialismo, preconceito e discriminação. Configurações dos conceitos de raça, etnia e cor no Brasil: entre as abordagens acadêmicas e sociais. Cultura afro-brasileira e indígena. Educação Sanitária e Ambiental. Avaliação de Impacto Ambiental. Políticas de Ações Afirmativas e Discriminação Positiva – a questão das cotas. Aplicações de computadores e sua influência na sociedade. Vantagens da automação. Aspectos legais, sociais, econômicos e éticos da utilização do computador. Ética profissional. Perspectivas futuras. Atuação do profissional no mercado de trabalho."
+        }
+    ],
+    "semestre7": [
+        {
+            "nome_bruto": "GDCOC0117 - SISTEMAS DE RECOMENDAÇÃO - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDINF0112 - GERÊNCIA DE PROJETOS - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDINF0133 - PROCESSAMENTO DE LINGUAGEM NATURAL - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDCOC0075 - INTELIGÊNCIA COMPUTACIONAL - 60CH",
+            "ementa": "Pré-requisitos: Pesquisa Operacional Ementa: Redes Neurais: Definição e Características; Histórico, Conceitos Básicos e Aplicações; Neurônio Artificial; Estruturas de Interconexão; Processamento Neural - Aprendizado e Recuperação dos Dados; Tipos de Aprendizado - Supervisionado e Não-Supervisionado; Regras de Aprendizado - Algoritmos Neurais. Computação Evolucionária: Componentes de um Algoritmo Genético (AG); Desenvolvimento de Ags - Exemplo da Função Binária F6; Reprodução e Seleção; Outras Técnicas e Operadores; Problemas de Otimização Combinatorial - TSP, colorir grafo, produção industrial; Evolução de Regras de Classificação por Algoritmos Genéticos (Mineração de Dados); Introdução ao Evolver e ao RuleEvolver. Lógica Fuzzy: Introdução; Conjuntos Fuzzy; Relações e Composições Fuzzy; Lógica Fuzzy; Sistemas Fuzzy; Controle Baseado em Regras Lingüísticas."
+        },
+        {
+            "nome_bruto": "GDCOC0096 - VISUALIZAÇÃO DE DADOS - 60CH",
+            "ementa": "Introdução: Visualização científica, visualização de informações e visualização de software. Problemas e limitações da Visualização. Utilização do computador na análise de dados. Técnicas básicas de visualização: classificação de técnicas de visualização e seus dados. Taxonomias para visualização. Discussão sobre a distinção entre visualização científica e de informação. Organização e tipos de dados em visualização. Técnicas de visualização volumétrica. Técnicas volumétricas baseadas em superfícies. Técnicas de visualização volumétrica direta. Comparação entre técnicas baseadas em superfícies e volumétricas. Visualização de vetoriais. Visualização de dados multidimensionais: registros; textos; séries temporais; imagens e outros. Associação e exemplos da visualização com a mineração de dados (Mineração visual de dados). Técnicas alternativas de representação de dados: glyphs; som; texturas; realidade virtual e outras. Sistemas de visualização. Introdução a um sistema de visualização. Exemplos e prática."
+        },
+        {
+            "nome_bruto": "GDCOC0097 - MINERAÇÃO ESTATÍSTICA DE DADOS - 60CH",
+            "ementa": "Coleta de dados e entendimento do negócio. Pré-processamento de dados: limpeza de dados; transformação de variáveis; criação de variáveis; redução de dimensionalidade. Modelagem: análise exploratória de dados; modelagem de dependência usando regras de associação; agrupamento (análise de clusters); detecção de anomalias (detecção de outliers). Análise preditiva: métricas de avaliação; modelos baseados em árvores; SVM (support vector machines); modelos Ensembles. Avaliação: os métodos holdout e de subamostragem aleatória; validação cruzada; estimativas bootstrap. Relatórios e apresentação: relatórios por documentos dinâmicos; apresentação via aplicativos web."
+        },
+        {
+            "nome_bruto": "GDCOC0106 - EMPREENDEDORISMO - 60CH",
+            "ementa": "Motivação. Empreendedorismo no Brasil. Prática empreendedora. Ferramentas úteis ao empreendedor (marketing e administração estratégica). Plano de negócios: etapas, processos e elaboração. Empreendedorismo no Direito."
+        }
+    ],
+    "semestre8": [
+        {
+            "nome_bruto": "GDSCO0091 - INTERNET DAS COISAS - 60CH",
+            "ementa": ""
+        },
+        {
+            "nome_bruto": "GDCOC0098 - BIG DATA - 60CH",
+            "ementa": "Estudar tecnologias fundamentais para Big Data. Estudar os principais conceitos para gerenciamento de Big Data. Explorar métodos analíticos em Big Data. Análise e solucionar problemas reais em Big Data, envolvendo dados estruturados e não estruturados"
+        },
+        {
+            "nome_bruto": "GDCOC0099 - ESTÁGIO SUPERVISIONADO - CIÊNCIA DE DADOS - 300CH",
+            "ementa": "Período de exercício pré-profissional em que o estudante de graduação entra em contato direto com o ambiente de trabalho, fundamentando os conhecimentos teóricos adquiridos segundo um programa de tarefas previamente estabelecido, sob a orientação de um professor e a supervisão de um técnico da empresa onde o estágio está sendo realizado."
+        },
+        {
+            "nome_bruto": "GDCOC0108 - TRABALHO DE CONCLUSÃO DE CURSO - CIÊNCIA DE DADOS INT. ARTIFICIAL - 60CH",
+            "ementa": "Elaboração, sob a orientação de um professor do Centro de Informática, de relatório referente ao Estágio Supervisionado realizado em empresa ou, da monografia fruto de trabalho técnico-científico desenvolvido sob a orientação de um professor do Centro de Informática."
+        }
+    ]
+}

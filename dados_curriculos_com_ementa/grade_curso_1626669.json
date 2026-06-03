@@ -1,0 +1,290 @@
+{
+    "semestre1": [
+        {
+            "nome_bruto": "1103118 - CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA - 60CH",
+            "ementa": "Vetores no espaço. Retas e Planos. Cônicas. Superfícies Quádricas."
+        },
+        {
+            "nome_bruto": "1103177 - CÁLCULO DIFERENCIAL E INTEGRAL I - 60CH",
+            "ementa": "Funções reais de uma variável real. Limite e Continuidade. Derivadas: conceito, regras e aplicações."
+        },
+        {
+            "nome_bruto": "1107136 - INTRODUÇÃO A PROGRAMAÇÃO - 60CH",
+            "ementa": "ALTERADA EM CONFORMIDADE COM A RESOLUÇÃO nº 37/2023 - CONSEPE: Histórico das linguagens de programação. Descrição e construção de algoritmos. Metodologia de programação. Introdução à uma linguagem de programação moderna: tipos elementares e compostos de dados; operadores; expressões e funções; mecanismos de passagem de parâmetros; variáveis e comandos; procedimentos; recursividade; tipos definidos pelo programador e tipos abstratos de dados; noções de estruturas dinâmicas de dados. Aplicações práticas. ANTERIORMENTE: Histórico das linguagens de programação. Descrição de algoritmos. Construção de algoritmos, utilizando uma linguagem algorítmica. Aplicações. Introdução a uma linguagem de programação estruturada. Metodologia de programação."
+        },
+        {
+            "nome_bruto": "1107259 - MATEMÁTICA DISCRETA - 60CH",
+            "ementa": "Introdução à lógica proposicional. Contagem e combinatória: princípios de adição, princípios do produto, listas, fatorial, arranjo, permutações, combinações, com e sem repetição de elementos, subconjuntos e triângulo de Pascal. Relações: conceito, funções como relações, propriedades, equivalências. Indução Matemática: princípios, indução forte, visão recursiva, indução estrutural, recorrências. Sequências e somatórios. Inferência e prova: regras de inferência, prova direta, prova por indução, prova por contradição, prova por construção e prova por absurdo."
+        },
+        {
+            "nome_bruto": "DINF00045 - METODOLOGIA DO TRABALHO CIENTÍFICO PARA CIÊNCIA DA COMPUTAÇÃO - 30CH",
+            "ementa": "Conhecimento e ciência. A ciência moderna e o contexto sociocultural. Ciência e método científico. Ética e ciência. Escrita acadêmica: técnicas de leitura crítica, de resumo e de escrita dissertativo-argumentativa. Produção e comunicação do conhecimento científico."
+        },
+        {
+            "nome_bruto": "DINF00046 - INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO - 60CH",
+            "ementa": "Apresentação do curso de Bacharelado em Ciência da Computação: áreas de formação e de atuação; planejamento individual e programação do perfil profissional; normas gerais da graduação. Pensamento computacional. Elementos de software. Sistema de computador. Componentes básicos. Arquitetura de computadores: CPU; memória; dispositivos de entrada e saída. Redes de computadores e Internet. Operações básicas num computador hipotético. Aritmética computacional. Representação de dados. História do desenvolvimento da computação. Ética na ciência da computação."
+        },
+        {
+            "nome_bruto": "DINF00056 - PESQUISA APLICADA À COMPUTAÇÃO - 30CH",
+            "ementa": "Ciência e tecnologia: aspectos conceituais. A pesquisa e a construção do conhecimento. A pesquisa e sua interface nas diferentes áreas do conhecimento na ciência da computação. Métodos e técnicas de pesquisa acadêmica. Normatização daprodução acadêmica: normas da ABNT, elaboração de projetos e artigos."
+        }
+    ],
+    "semestre2": [
+        {
+            "nome_bruto": "1103178 - CÁLCULO DIFERENCIAL E INTEGRAL II - 60CH",
+            "ementa": "Integral de funções uma variável real. Funções reais de várias variáveis: limite e continuidade. Derivadas Parciais e Diferenciabilidade. Regra da Cadeia e derivação implícita. Máximos e Mínimos. Multiplicadores de Lagrange."
+        },
+        {
+            "nome_bruto": "1103179 - INTRODUÇÃO À ÁLGEBRA LINEAR - 60CH",
+            "ementa": "Espaços Vetoriais. Aplicações Lineares e Matrizes. Diagonalização de Operadores. Produto Interno."
+        },
+        {
+            "nome_bruto": "DINF00078 - PROGRAMAÇÃO ORIENTADA A OBJETOS - 60CH",
+            "ementa": "Conceitos e terminologias de orientação a objetos: objetos; classes; métodos e mensagens; herança simples e múltipla; polimorfismo; sistemas de tipos. Classificação de linguagens baseadas em objetos. Projeto orientado a objetos. Introdução a uma linguagem de programação orientada a objetos. Aplicações práticas."
+        },
+        {
+            "nome_bruto": "GDCOC0079 - LÓGICA APLICADA À COMPUTAÇÃO - 60CH",
+            "ementa": "Histórico. Lógicas de ordem 0 (proposições) e 1 (predicados). Sistemas dedutivos. Interpretações, modelos e provas. Teoremas sobre decidibilidade, satisfabilidade, completeza e soundness (validade). Dedução automática: polaridade, skolemização, unificação, resolução, igualdade. Fundamentos da programação em lógica."
+        },
+        {
+            "nome_bruto": "GDSCO0036 - ARQUITETURA DE COMPUTADORES I - 60CH",
+            "ementa": "Máquinas multinível. Nível da lógica digital. Blocos funcionais do computador. Execução de programas pelo processador: caminho de dados e controle. Passos paraa execução da instrução. Tipos de conjuntos de instruções (RISC e CISC). Funcionamento da unidade de controle. Caminhos de dados com pipeline. Arquitetura do conjunto de instruções. Instruções e endereçamento. Procedimentos e dados (pilha). Programação em linguagem assembly. Microarquitetura. Entrada/saída e interfaceamento. Dispositivos de entrada/saída. Interrupções. Barramentos. Acesso à memória e DMA. Hierarquia de memória."
+        }
+    ],
+    "semestre3": [
+        {
+            "nome_bruto": "1103180 - SÉRIES E EQUAÇÕES DIFERENCIAIS ORDINÁRIAS - 60CH",
+            "ementa": "ALTERADA EM CONFORMIDADE COM A RESOLUÇÃO nº 37/2023 - CONSEPE: Sequências, Séries, Equações Diferenciais Ordinárias. Aplicações. ANTERIORMENTE: Sequências e Séries Numéricas. Séries de potências e Séries de Fourier. Equações Diferenciais Ordinárias."
+        },
+        {
+            "nome_bruto": "1103232 - CÁLCULO DIFERENCIAL E INTEGRAL III - 60CH",
+            "ementa": "Integral Dupla e Integral Tripla. Integral de Linha. Integral de Superfície."
+        },
+        {
+            "nome_bruto": "5102007 - PESQUISA OPERACIONAL - 60CH",
+            "ementa": "Programação linear. Aplicações de Programação linear. Problemas de Atribuição e de Transporte. Problemas de Fluxos em redes. Problemas de Roteamento. PERT e CPM. Teoria de Filas. Simulação. Teoria de Estoques."
+        },
+        {
+            "nome_bruto": "5102009 - ALGEBRA LINEAR COMPUTACIONAL - 60CH",
+            "ementa": "Fundamentos: multiplicação matriz-vetor; produto interno; matrizes e vetores ortogonais; matriz esparsa; normas. Sistemas lineares: métodos diretos: decomposição LU, decomposição de Cholesky; métodos Iterativos: gradiente conjugado, métodos pré-condicionados. Operadores lineares: decomposição de valor singular (SVD); projeção ortogonal; decomposição QR; ortogonalização de Gram-Schmidt; método de Householder; autovalores e autovetores; método dos mínimos quadrados."
+        },
+        {
+            "nome_bruto": "GDSCO0054 - INTRODUÇÃO À TEORIA DA INFORMAÇÃO - 60CH",
+            "ementa": "Princípios de teoria da informação. Conceituação, medidas e codificação da informação. Incerteza e entropia. Sistemas de comunicação. Codificação de fonte. Compressão de dados sem perdas. Compressores estatísticos e baseados em dicionário. Compressão de dados com perdas. Técnicas avançadas de compressão de dados."
+        },
+        {
+            "nome_bruto": "GDSCO0081 - SISTEMAS EMBARCADOS I - 60CH",
+            "ementa": "Conceitos de sistemas embarcados. Estudo de processadores dedicados e de propósito geral. Entrada e saída e periféricos. Sistema de memória. Comunicação entre processadores, periféricos e módulos de memória. Protocolos de comunicação.Projeto de sistemas embarcados: introdução ao projeto de sistemas embarcados; metodologias de projeto de sistemas embarcados; modelagem de sistemas embarcados. Sintetização de sistemas, de software e de hardware. Verificação de sistemas embarcados. Técnicas e ferramentas para o projeto de sistemas embarcados."
+        },
+        {
+            "nome_bruto": "1108100 - CÁLCULO DAS PROBABILIDADES E ESTATÍSTICA I - 60CH",
+            "ementa": "Conceitos Fundamentais; Distribuição de Frequência; Tabelas e Gráficos; Medidas de Posição;Medidas de Dispersão;Introdução à Probabilidade;Variáveis Aleatórias Unidimensionais; Esperança Matemática; Distribuições Discretas; Distribuições Contínuas; Noções Elementares de Amostragem; Estimativa Estatística; Decisão Estatística; Regressão correlação."
+        },
+        {
+            "nome_bruto": "DCOC00062 - LINGUAGENS FORMAIS E COMPUTABILIDADE - 60CH",
+            "ementa": "Linguagens formais. Hierarquia de Chomsky. Linguagens regulares. Autômatos finitosdeterminísticos e não-determinísticos. Expressões regulares. Linguagens não- regulares. Linguagens livres do contexto. Gramáticas livres do contexto. Autômatos de pilha. Máquinas de Turing. Hipótese de ChurchTuring. Computabilidade e problemasindecidíveis. Complexidade: classes P e NP."
+        },
+        {
+            "nome_bruto": "DINF00047 - ESTRUTURAS DE DADOS E ALGORITMOS I - 60CH",
+            "ementa": "Conceitos básicos: valores, tipos abstratos, independência de representação. Estruturas lineares: listas (simples, duplas, circulares e heterogêneas), pilhas e filas. Árvores: binárias, equilibradas e heap. Grafos. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "DINF00050 - PROGRAMAÇÃO FUNCIONAL - 60CH",
+            "ementa": "Princípios da programação funcional. Expressões e valores. Variáveis e funções. Funções como valores e funções de alta-ordem. Recursividade: números e listas. Padrões de recursividade. Introdução de efeitos colaterais. Pattern-matching de dados. Tipos. Noções de mônadas e composicionalidade."
+        },
+        {
+            "nome_bruto": "GDCOC0072 - CALCULO NUMERICO - 60CH",
+            "ementa": "Erros, Equações, Sistemas Lineares, Interpolação, Integração, Equações Diferenciais Ordinárias e Ajuste de Curvas"
+        },
+        {
+            "nome_bruto": "GDSCO0037 - ARQUITETURA DE COMPUTADORES II - 60CH",
+            "ementa": "Sistema de memória: projeto da hierarquia de memória. Conceitos de memória principal. Organização de memória cache. Projetos de memórias (RAMs, ROMs, magnéticas, óticas). Conceitos de memória de massa. Suporte ao sistema operacional. Memória cache e aspectos de desempenho. Armazenamento de disco e armazenamento distribuído. Pipeline e paralelismo em nível de instrução. Processadores superescalares e aspectos de desempenho. Medidas de desempenho. Arquiteturas paralelas e de alto desempenho: multiprocessamento com memória compartilhada. Clusters e multicomputadores distribuídos. Computadores de alto desempenho. Exemplos de processadores e computadores atuais. Virtualização e suas tecnologias de implementação. Programação paralela de computadores com múltiplos núcleos. Processadores de propósito específico."
+        }
+    ],
+    "semestre4": [
+        {
+            "nome_bruto": "GDCOC0091 - TEORIA DOS GRAFOS APLICADA - 60CH",
+            "ementa": "Conceitos de grafos: vértices; arestas; matrizes de adjacências; graus; componentes conectados. Busca em grafos. Medidas de distância e de centralidade. Caminhos. Difusão de informações. Detecção de comunidades. Interpretação de topologias de rede. Exemplos de mundo real: formação de opinião e contágio; redes sociais. Software para gestão de redes. Otimização em grafos."
+        },
+        {
+            "nome_bruto": "GDCOC0096 - VISUALIZAÇÃO DE DADOS - 60CH",
+            "ementa": "Introdução: Visualização científica, visualização de informações e visualização de software. Problemas e limitações da Visualização. Utilização do computador na análise de dados. Técnicas básicas de visualização: classificação de técnicas de visualização e seus dados. Taxonomias para visualização. Discussão sobre a distinção entre visualização científica e de informação. Organização e tipos de dados em visualização. Técnicas de visualização volumétrica. Técnicas volumétricas baseadas em superfícies. Técnicas de visualização volumétrica direta. Comparação entre técnicas baseadas em superfícies e volumétricas. Visualização de vetoriais. Visualização de dados multidimensionais: registros; textos; séries temporais; imagens e outros. Associação e exemplos da visualização com a mineração de dados (Mineração visual de dados). Técnicas alternativas de representação de dados: glyphs; som; texturas; realidade virtual e outras. Sistemas de visualização. Introdução a um sistema de visualização. Exemplos e prática."
+        },
+        {
+            "nome_bruto": "GDCOC0114 - SÉRIES TEMPORAIS - 60CH",
+            "ementa": "Introdução aos modelos de séries temporais. Alisamento exponencial. Modelos de médias móveis e função de autocorrelação. Modelos autorregressivos e função de autocorrelação parcial. Modelos autorregressivos e de médias móveis. Modelos ARIMA. Sazonalidade: SARMA e SARIMA. Modelagem de séries temporais com variáveis exógenas."
+        },
+        {
+            "nome_bruto": "GDSCO0051 - INTRODUÇÃO À COMPUTAÇÃO GRÁFICA - 60CH",
+            "ementa": "Conceitos básicos: definição de imagem digital, formatos de arquivos de imagem, rasterização de retas e circunferências, dithering, halftoning. Transformações geométricas: o plano projetivo, transformações lineares, transformações projetivas, rotações, reflexões, translações e projeções no espaço tridimensional, gráficos de superfícies, eliminação de superfícies escondidas. Modelagem geométrica: representação paramétrica de curvas e superfícies, curvas de Bézier, curvas de B- Spline, superfícies de Bézier, superfícies B-Spline, NURBS."
+        },
+        {
+            "nome_bruto": "1107128 - ENGENHARIA DE SOFTWARE - 60CH",
+            "ementa": "EMENTA DA DISCIPLINA Objetivos. Princípios da Engenharia de Software. Qualidade de Software. Verificação de Software. Teste de Software. Manutenção de Software. Configuração de Software. Ferramentas e Ambientes para Engenharia de Software."
+        },
+        {
+            "nome_bruto": "1107191 - INTRODUCAO A INTELIGENCIA ARTIFICIAL - 60CH",
+            "ementa": "1. Indrodução à Inteligência Artificial 2. Agentes Inteligentes 3. Resolução de problemas por meio de Buscas Cegas 4. Resolução de problemas por meio de Buscas Heurísticas 5. Representação do Conhecimento e Raciocínio 6. Inteligência Artificial Bio-inspirada (Redes Neurais, Computação Evolucionária, Computação Autonômica, Robótica, Inteligência Emergente, Vida Artificial)"
+        },
+        {
+            "nome_bruto": "DINF00048 - ESTRUTURAS DE DADOS E ALGORITMOS II - 60CH",
+            "ementa": "Árvores e suas generalizações. Listas de prioridade. Tabelas de dispersão e técnicas de hashing. Algoritmos para pesquisa e ordenação em memória principal e secundária. Algoritmos em grafos. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "GDSCO0055 - INTRODUÇÃO AO PROCESSAMENTO DIGITAL DE IMAGENS - 60CH",
+            "ementa": "Imagem digital. Sistemas de processamento de imagens digitais. Elementos de percepção visual. Fundamentos de cor. Amostragem e quantização. Transformada de Fourier e outras transformadas úteis. Técnicas de modificação da escala de cinza. Operações com imagens. Filtragem. Pseudo Coloração. Restauração."
+        },
+        {
+            "nome_bruto": "GDSCO0062 - REDES DE COMPUTADORES I - 60CH",
+            "ementa": "Conceitos básicos de rede: modelo, camada, protocolo, serviços, arquitetura. Redes PAN, LAN, MAN e WAN. Topologias de rede. Arquiteturas de rede: modelo de referência RM/OSI-ISO e TCP/IP. Funcionalidades específicas das camadas dos modelos RM/OSI-ISSO e TCP/IP. Meios de transmissão. Endereçamento. Roteamento. Protocolos de Transporte. Interconexão de redes. Tecnologias e serviços de redes locais (LAN) e de longa distância (WAN). Sistemas operacionais de rede. Protocolos de Banco de Dados aplicação da família TCP/IP: funcionalidades básicas e operação."
+        },
+        {
+            "nome_bruto": "GDSCO0068 - SISTEMAS OPERACIONAIS I - 60CH",
+            "ementa": "Visão geral. Gerência de processos. Escalonamento de processos. Tratamento dedeadlocks (prevenção, impedimento e recuperação). Gerenciamento de memória principal. Gerenciamento de memória virtual (swap, paginação, segmentação e algoritmos de substituição de páginas). Controle de discos e de outros dispositivos deE/S. Estrutura e implementação de sistemas de arquivos."
+        }
+    ],
+    "semestre5": [
+        {
+            "nome_bruto": "5101001 - AVALIAÇÃO DE DESEMPENHO DE SISTEMAS OPERACIONAIS - 60CH",
+            "ementa": "Visão geral: conceitos básicos; classificação e técnicas de avaliação de desempenho de redes e sistemas; técnicas de medição: métricas e ferramentas; projeto prático de medição; sumarização e interpretação de resultados; técnicas de simulação; projeto experimental e análise de resultados; projeto prático de simulação; técnicas analíticas;caracterização da carga de trabalho; desafios da área de avaliação de desempenho de redes e sistemas"
+        },
+        {
+            "nome_bruto": "DINF00064 - REUSO DE SOFTWARE - 60CH",
+            "ementa": "Conceitos e fundamentos. Benefícios e desafios. Panorama das técnicas de reuso de software. Frameworks. Produtos de prateleira (COTS). Desenvolvimento baseado em componentes (DBC). Linhas de produtos de software (LPS). Engenharia de software distribuído. Arquitetura orientada a serviços (SOA). Arquitetura de microsserviços. Sistemas de sistemas."
+        },
+        {
+            "nome_bruto": "DINF00067 - SISTEMAS MULTIAGENTES - 60CH",
+            "ementa": "Introdução à resolução distribuída de problemas. Cooperação, coordenação e negociação. Comunicação entre agentes. Arquiteturas de comunicação. Linguagens de comunicação e conteúdo. Protocolos de interação. Especificações, metodologias e arquiteturas para o projeto e desenvolvimento de sistemas multiagentes: software, ferramentas, ambientes e aplicações. Ambiente de desenvolvimento JADE."
+        },
+        {
+            "nome_bruto": "DINF00068 - INTELIGÊNCIA ARTIFICIAL APLICADA À SAÚDE - 60CH",
+            "ementa": "Introdução à computação inteligente em tratamentos de saúde. Técnicas de suporte à decisão clínica. Sistemas cognitivos de informação médica. Sistemas de tratamento de saúde pervasivos inteligentes. Agentes inteligentes para computação ubíqua em saúde. Aplicações e ética."
+        },
+        {
+            "nome_bruto": "DSCO00032 - ADMINISTRAÇÃO DE SISTEMAS - 60CH",
+            "ementa": "Conceitos básicos sobre gerenciamento e configuração de serviços essenciais de sistemas e redes. Automatização de tarefas. Tecnologias e estratégias de backup e restauração. Atualização e manutenção de software. Análise de carga. Estratégias desegurança."
+        },
+        {
+            "nome_bruto": "GDSCO0032 - REDES SEM FIO - 60CH",
+            "ementa": "Histórico, aplicações e aspectos socioeconômicos de serviços sem fio. Desafios tecnológicos da comunicação sem fio: fundamentos da transmissão sem fio e espectrode frequência. Sistemas sem fio padronizados: GSM, CDMA, WCDMA. Redes locais sem fio (WLAN’s): as famílias de protocolos IEEE 802.11 e IEEE 802.15. Exemplos deprojeto de redes sem fio. Redes de sensores sem fio, novas tecnologias."
+        },
+        {
+            "nome_bruto": "1107180 - BANCO DE DADOS I - 60CH",
+            "ementa": "Introdução aos sistemas de gerência de bancos de dados. Projeto de banco de dados: conceitual, lógico e físico. Modelo conceitual de entidades e relacionamentos. Modelo de dados relacional. Dependências funcionais e normalização. Linguagens de definição e de manipulação de dados. Álgebra relacional e SQL. Restrições de integridade e visões. Organização física de bancos de dados: técnicas de armazenamento e indexação."
+        },
+        {
+            "nome_bruto": "1107184 - ESPECIFICACAO DE REQUISITOS DE SOFTWARE - 60CH",
+            "ementa": "Conceitos e fundamentos: requisitos de usuário e sistema, requisitos funcionais e não- funcionais. Processo de engenharia de requisitos: estudo de viabilidade, elicitação, análise, especificação, validação, gerenciamento, papéis, artefatos. Técnicas de levantamento de requisitos. Modelagem de processos organizacionais. Análise e modelagem orientada a objeto. Técnicas de escrita de requisitos. Considerações práticas sobre a engenharia de requisitos: técnicas de leitura de modelos da análise de requisitos, modelagem ágil, reutilização, modelos de qualidade de processos de software. Exemplos e aplicações práticas. Atividades de extensão possíveis, porém não limitadas à: minicursos/oficinas, ou roda de conversa, ou palestra relacionados a especificação de produtos/artefatos digitais/ferramentas tecnológicas relacionadas com a área de Requisitos de Software e atuação profissional; prestação de serviços associado com a especificação de produtos digitais como, por exemplo, a prototipaçãode produtos"
+        },
+        {
+            "nome_bruto": "1107205 - PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO - 60CH",
+            "ementa": "Conceitos de linguagem de programação: valores, expressões, variáveis, comandos,vinculações, abstração, modularidade, encapsulação, sistemas de tipos, reflexão, concorrência. Paradigmas das linguagens de programação imperativas, concorrentes, funcionais, lógicas e orientadas a objetos. Projeto de linguagens de programação. Suporte para execução de programas."
+        },
+        {
+            "nome_bruto": "1107209 - SISTEMAS BASEADOS EM CONHECIMENTO - 60CH",
+            "ementa": "Engenharia do conhecimento: métodos, lógica de descrição, ontologias. Planejamento inteligente: clássico e hierárquico. Raciocínio probabilístico. Sistemas de Recomendação. Processamento de linguagem natural. Sistemas simbólicos em aprendizagem de máquina. Sistemas multiagentes. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "DINF00049 - PROGRAMAÇÃO CONCORRENTE E DISTRIBUÍDA - 60CH",
+            "ementa": "Fundamentos de concorrência e distribuição: motivação, histórico, concorrência lógicae física, comunicação entre processos, compartilhamento de recursos, linguagens de programação concorrentes. Programação concorrente: processos, threads, pool de threads, técnicas de exclusão mútua e sincronização, problemas clássicos. Programação distribuída: paradigma cliente-servidor, sockets, servidor multithreaded, chamada de procedimentos remotos, objetos distribuídos, serviços, microsserviços. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "GDCOC0076 - ANÁLISE E PROJETO DE ALGORITMOS - 60CH",
+            "ementa": "Medidas de complexidade. Notação O. Avaliação crítica das complexidades para pesquisa, inserção e deleção em: conjuntos, arrays, pilhas, filas, árvores, grafos e tabelas hash. Avaliação de algoritmos de ordenação. Técnicas de projeto de algoritmos: divida e conquiste, balanceamento, backtracking, cobiçoso (greed), programação dinâmica. Análise amortizada. Problemas intratáveis: classe P, NP, NP-completa e NP-difícil. Algoritmos probabilísticos e heurístico-aproximados. Computação numérica com números enormes e criptografia. Estudos de casos (outrosalgoritmos)."
+        }
+    ],
+    "semestre6": [
+        {
+            "nome_bruto": "DINF00062 - BANCOS DE DADOS AVANÇADOS - 60CH",
+            "ementa": "Bancos de dados objeto-relacional. Bancos de dados orientado a objetos. Bancos de dados temporais. Bancos de dados espaciais. Bancos de dados multimídia. Bancos de dados semi-estruturados. Outros bancos de dados avançados."
+        },
+        {
+            "nome_bruto": "DINF00063 - SISTEMAS DE GERENCIAMENTO DE BANCOS DE DADOS - 60CH",
+            "ementa": "Arquiteturas de sistemas de gerenciamento de bancos de dados. Armazenamento. Indexação. Processamento de consultas. Otimização de consultas. Processamento de transações. Controle de concorrência. Recuperação de falhas. Segurança. Bancos dedados paralelos e distribuídos."
+        },
+        {
+            "nome_bruto": "DINF00065 - DESENVOLVIMENTO DE SISTEMAS WEB - 60CH",
+            "ementa": "Fundamentos de sistemas web. Arquiteturas de sistemas web. Tecnologias do cliente para desenvolvimento de sistemas web: HTML, CSS, JavaScript. Tecnologias de servidor para desenvolvimento de sistemas web. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "DINF00066 - IMPLEMENTAÇÃO DE SISTEMAS PARA DISPOSITIVOS MÓVEIS - 60CH",
+            "ementa": "Sistemas operacionais para dispositivos móveis. Recursos em dispositivos móveis (smartphone e tablets): câmera, touch screen, áudio, vídeo, conectividade, sensores. Restrições em dispositivos móveis: desempenho, consumo de bateria. Arquiteturas de sistemas para dispositivos móveis. Tecnologias para desenvolvimento de sistemas para dispositivos móveis. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "GDCOC0098 - BIG DATA - 60CH",
+            "ementa": "Estudar tecnologias fundamentais para Big Data. Estudar os principais conceitos para gerenciamento de Big Data. Explorar métodos analíticos em Big Data. Análise e solucionar problemas reais em Big Data, envolvendo dados estruturados e não estruturados"
+        },
+        {
+            "nome_bruto": "1107202 - METODOS DE PROJETO DE SOFTWARE - 60CH",
+            "ementa": "Aspectos fundamentais do projeto de software. Técnicas de modularização. Métodos, técnicas e ferramentas para projeto de sistemas. Aplicações práticas dos conceitos estudados."
+        },
+        {
+            "nome_bruto": "DINF00051 - PARADIGMAS DE APRENDIZAGEM DE MÁQUINA - 60CH",
+            "ementa": "Pré-processamento de dados. Classificação. Análise de agrupamento. Algoritmos evolucionários. Técnicas de aprendizagem: regressão linear, redes neurais, aprendizado profundo, árvores de decisão. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "DSCO00021 - SEGURANÇA COMPUTACIONAL - 60CH",
+            "ementa": "Conceitos básicos: definição de segurança computacional; confidencialidade, integridade e disponibilidade; ameaças e ataques; políticas e mecanismos; garantia e questões operacionais; aspectos humanos. Matriz de controle de acesso. Resultados fundamentais à Safety Question. Políticas de segurança. Mecanismos de segurança. Projeto e padrões de segurança. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "DSCO00022 - SISTEMAS DISTRIBUÍDOS - 60CH",
+            "ementa": "Conceitos básicos e tipos de sistemas distribuídos. Modelos de sistemas distribuídos. Comunicação e sincronização em sistemas distribuídos. Coordenação e acordo. Transações e controle de concorrência. Consistência, replicação e tolerância a falhas.Estudos de caso."
+        },
+        {
+            "nome_bruto": "DSCO00023 - INOVAÇÃO DE BASE CIENTÍFICA-TECNOLÓGICA E EMPREENDEDORISMO - 60CH",
+            "ementa": "ALTERADA EM CONFORMIDADE COM A RESOLUÇÃO Nº 63/2025 - CONSEPE: Introdução à inovação e ao empreendedorismo. Processo de inovação e níveis de maturidade. Empreendedorismo e startups. Ecossistemas de inovação. Propriedade intelectual. Métodos ágeis de gestão e desenvolvimento. Gestão financeira e governança. Gestão da qualidade. Liderança e gestão de equipes. Modelagem e processos de negócios. Modelagem e desenvolvimento de soluções (protótipos de alta e baixa fidelidade, Mínimo Produto Viável). Negociação e comunicação. Criação e desenvolvimento de soluções de base tecnológica para desafios sociais e de mercado, impulsionando o desenvolvimento regional e a geração de valor para a comunidade, através de iniciativas empreendedoras e inovadoras. ANTERIORMENTE: Introdução à inovação e ao empreendedorismo. Processo de inovação e níveis de maturidade. Empreendedorismo e startups. Ecossistemas de inovação. Propriedade intelectual. Métodos ágeis de gestão e desenvolvimento. Gestão financeira e governança. Gestão da qualidade. Liderança e gestão de equipes. Modelagem e processos de negócios. Modelagem e desenvolvimento de soluções (protótipos de alta e baixa fidelidade, Mínimo Produto Viável). Negociação e comunicação. Atividades de extensão possíveis, porém não limitadas à: Como atividades de extensão serão realizadas visitas a membros da sociedade para aplicações de soluções, conversas com membros da sociedade interessados nas soluções propostas, rodadas de negócio com membros da sociedade potenciais parceiros e investidores, e apresentação de soluções e modelos de negócio a membros da sociedade potenciais clientes, parceiros e investidores."
+        },
+        {
+            "nome_bruto": "GDSCO0043 - CONSTRUÇÃO DE COMPILADORES I - 60CH",
+            "ementa": "Conceitos iniciais. Módulos de um compilador. Análise léxica: especificação via linguagens regulares e técnicas de implementação. Análise sintática: especificação via linguagens livre de contexto, implementações bottom-up e top-down. Análise semântica: tabela de símbolos e verificação de tipos. Geração de código intermediário.Otimização de código: técnicas dependente e independente de máquina. Tratamento de erros. Implementação dos módulos de análise do compilador."
+        }
+    ],
+    "semestre7": [
+        {
+            "nome_bruto": "1107203 - MÉTODOS FORMAIS PARA DESENVOLVIMENTO DE SOFTWARE - 60CH",
+            "ementa": "Introdução ao desenvolvimento formal de software. Classes de métodos formais. Especificação formal. Refinamento de especificações formais. Verificação de modelos. Testes baseados em especificações formais. Ferramentas de apoio. Aplicações práticas de especificações formais."
+        },
+        {
+            "nome_bruto": "GDCOC0094 - APRENDIZADO PROFUNDO - 60CH",
+            "ementa": "Fundamentos matemáticos para redes neurais. Perceptrons e multi-Layer perceptrons. Deep learn. Redes feedforward. Backpropagation. Regularização. Performance. Avaliação do aprendizado. Tarefas e arquiteturas de redes neurais: Convolutional neural networks (CNNs). Modelos sequenciais: recurrent neural networks (RNNs); long short term memory networks (LSTMs); generative adversarial networks (GANs). Transfer learning. Hopfield networks. Boltzmann machine network. Deep belief networks. Deep autoencoders. Capsule networks. deep learning para PLN. Pesquisa em deep learn. Modelos open source. Algoritmos. Plataformas de hardware e software. Exemplos. Bibliografia Obrigatória:"
+        },
+        {
+            "nome_bruto": "DINF00052 - ENGENHARIA DE SISTEMAS DISTRIBUÍDOS - 60CH",
+            "ementa": "Projeto, implementação, implantação e operação de sistemas distribuídos de larga escala. Exemplos e aplicações práticas. Atividades de extensão possíveis, porém não limitadas à: minicursos/oficinas, ou roda de conversa, ou palestra relacionados ao desenvolvimento de sistemas distribuídos/ferramentas tecnológicas relacionadas/atuação profissional; prestação de serviços associado com ao desenvolvimento de sistemas distribuídos como, por exemplo, estudo viabilidade ou prototipação de produtos."
+        },
+        {
+            "nome_bruto": "DINF00053 - GERENCIAMENTO DE PROJETO DE SOFTWARE - 60CH",
+            "ementa": "Conceitos e fundamentos. Habilidades e competências do gerente de projetos. Gerenciamento de pessoas. Gerenciamento de escopo. Gerenciamento de tempo: planejamento de cronograma, técnicas de estimativas. Gerenciamento de custos: precificação de software. Gerenciamento de qualidade: qualidade do produto, qualidade do processo, revisões e inspeções, métricas. Gerenciamento de configuração: versionamento, controle de mudanças, integração contínua, teste contínuo, entrega contínua. Gerenciamento de riscos. Atividades de extensão possíveis, porém não limitadas à: minicursos/oficinas, ou roda de conversa, ou palestra relacionados ao gerenciamento de projetos/ferramentas tecnológicas relacionadas/atuação profissional; prestação de serviços associado com a gestão de projetos como o desenvolvimento de planos de projetos"
+        },
+        {
+            "nome_bruto": "DINF00054 - TESTE DE SOFTWARE - 60CH",
+            "ementa": "Conceitos e terminologia: verificação e validação, teste de software, níveis de testes, tipos de testes. Processo de teste: planejamento, projeto, execução, análise, comunicação. Técnicas de projeto de testes. Medição de cobertura de testes. Teste baseado em modelos. Automação de testes. Exemplos e aplicações práticas."
+        },
+        {
+            "nome_bruto": "DINF00055 - TRABALHO DE CONCLUSÃO DE CURSO PARA CIÊNCIA DA COMPUTAÇÃO - 60CH",
+            "ementa": "Elaboração de monografia em Ciência da Computação, fruto de trabalho técnicocientífico, de natureza teórica ou aplicada, desenvolvido sob a orientação de um professor da área de computação."
+        },
+        {
+            "nome_bruto": "DSCO00024 - INTERAÇÃO HUMANO-COMPUTADOR - 60CH",
+            "ementa": "Conceitos de usabilidade, affordance, métodos de design, pesquisa e modelagem dos usuários, estruturas de informação, ferramentas, ambientes e frameworks de design, prototipagem, avaliação e teste de interfaces. Estudos de casos. Desenvolvimento de projetos."
+        },
+        {
+            "nome_bruto": "GDADM0110 - SISTEMAS DE INFORMAÇÃO NAS ORGANIZAÇÕES - 60CH",
+            "ementa": "Valor e papel da Tecnologia da Informação (TI) nas organizações. Suporte dos sistemas de informação às operações de negócios e aos níveis organizacionais. Infraestrutura e arquitetura de dados, conectividade e mobilidade. Segurança da informação. Comércio eletrônico e negócios virtuais. Sistemas integrados de gestão. Gestão da cadeia de suprimentos. Sistemas colaborativos. Gestão do relacionamento com o cliente. Gestão do conhecimento. Introdução aos sistemas de suporte à decisão e inteligência de negócio. Aspectos da gestão estratégica da TI. Planejamento e alinhamento estratégico entre TI e negócio. Gestão de serviços. Terceirização. Governança de TI. Gestão de processos de negócio. Ética, responsabilidade social e carreira em TI."
+        }
+    ],
+    "semestre8": [
+        {
+            "nome_bruto": "DSCO00025 - DESIGN DE INTERAÇÃO - 60CH",
+            "ementa": "Desenvolvimento e gestão de projetos de interação. Design de interação, design centrado no usuário e interação humano-ambiente. Tecnologias, paradigmas, avaliação e testes de interação. Inovação e empreendedorismo em interação humano-computador."
+        },
+        {
+            "nome_bruto": "GDINF0106 - COMPUTADORES E SOCIEDADE - 60CH",
+            "ementa": "Educação para as relações étnico-raciais. Conceitos de raça e etnia, mestiçagem, racismo e racialismo, preconceito e discriminação. Configurações dos conceitos de raça, etnia e cor no Brasil: entre as abordagens acadêmicas e sociais. Cultura afro-brasileira e indígena. Educação Sanitária e Ambiental. Avaliação de Impacto Ambiental. Políticas de Ações Afirmativas e Discriminação Positiva – a questão das cotas. Aplicações de computadores e sua influência na sociedade. Vantagens da automação. Aspectos legais, sociais, econômicos e éticos da utilização do computador. Ética profissional. Perspectivas futuras. Atuação do profissional no mercado de trabalho."
+        },
+        {
+            "nome_bruto": "GDINF0132 - ESTÁGIO SUPERVISIONADO - CIÊNCIA DA COMPUTAÇÃO - 300CH",
+            "ementa": "Exercício de atividades profissionais em Ciência da Computação em ambiente real de trabalho, envolvendo aplicação prática dos conhecimentos teóricos adquiridos no curso segundo um programa de tarefas previamente estabelecido, sob a orientação de um professor e a supervisão de um profissional no local de realização do estágio. Promoção de habilidades e atitudes para desenvolvimento de uma carreira profissional. Elaboração de relatório de estágio supervisionado."
+        }
+    ]
+}
