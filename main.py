@@ -1,6 +1,5 @@
 import json
 import os
-
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -9,12 +8,10 @@ from pydantic import BaseModel
 from contextlib import asynccontextmanager
 from gerenciador_agentes import inicializar_todos_agentes, processar_pergunta
 
-# Caminhos absolutos
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
 RAIZ_PROJETO = os.path.dirname(DIRETORIO_ATUAL)
 PASTA_FRONTEND = os.path.join(DIRETORIO_ATUAL, "frontend")
 
-# Informações dos cursos para o frontend
 CURSOS_INFO = {
     "curso_1": {"nome": "Ciência da Computação",    "sigaa_id": "1626669"},
     "curso_2": {"nome": "Engenharia da Computação",  "sigaa_id": "1626865"},
@@ -22,15 +19,13 @@ CURSOS_INFO = {
     "curso_4": {"nome": "Engenharia de Robôs",       "sigaa_id": "44146190"},
 }
 
-
 def _carregar_disciplinas(curso_id: str) -> list[str]:
-    """Lê o arquivo de chunks e retorna a lista de nomes das disciplinas."""
     caminho = os.path.join(RAIZ_PROJETO, "chunks_processados", f"chunks_{curso_id}.json")
     if not os.path.exists(caminho):
         return []
     with open(caminho, "r", encoding="utf-8") as f:
         dados = json.load(f)
-    # Extrai nomes únicos preservando a ordem
+    
     vistos = set()
     nomes = []
     for item in dados:
@@ -40,7 +35,6 @@ def _carregar_disciplinas(curso_id: str) -> list[str]:
             nomes.append(nome)
     return nomes
 
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     inicializar_todos_agentes()
@@ -48,7 +42,6 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Portal do Estudante - Agentes de Cursos", lifespan=lifespan)
 
-# CORS para permitir requisições do frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -56,9 +49,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
-# ── Modelos ──────────────────────────────────────────────
 
 class PerguntaAluno(BaseModel):
     curso_id: str
@@ -77,21 +67,15 @@ class DisciplinasList(BaseModel):
     curso_nome: str
     disciplinas: list[str]
 
-
-# ── Endpoints da API ─────────────────────────────────────
-
 @app.get("/cursos", response_model=list[CursoInfo])
 async def listar_cursos():
-    """Retorna a lista de cursos disponíveis."""
     return [
         CursoInfo(id=cid, nome=info["nome"])
         for cid, info in CURSOS_INFO.items()
     ]
 
-
 @app.get("/disciplinas/{curso_id}", response_model=DisciplinasList)
 async def listar_disciplinas(curso_id: str):
-    """Retorna as disciplinas de um curso específico."""
     if curso_id not in CURSOS_INFO:
         raise HTTPException(status_code=404, detail=f"Curso '{curso_id}' não encontrado.")
     
@@ -102,7 +86,6 @@ async def listar_disciplinas(curso_id: str):
         curso_nome=info["nome"],
         disciplinas=disciplinas,
     )
-
 
 @app.post("/chat", response_model=RespostaIA)
 async def endpoint_chat(req: PerguntaAluno):
@@ -118,9 +101,6 @@ async def endpoint_chat(req: PerguntaAluno):
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erro interno no processamento: {str(e)}")
-
-
-# ── Frontend estático ────────────────────────────────────
 
 @app.get("/")
 async def servir_index():

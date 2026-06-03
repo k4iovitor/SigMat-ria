@@ -9,7 +9,6 @@ def transformar_json_em_chunks(caminho: str):
 
     for semestre, disciplinas in dados.items():
         for disciplina in disciplinas:
-            
             nome_disciplina = disciplina.get("nome_bruto", "").strip()
             ementa = disciplina.get("ementa", "").strip()
 
@@ -30,9 +29,7 @@ def transformar_json_em_chunks(caminho: str):
     
     return chunks
 
-
 def main():
-
     doc_json = ["dados_curriculos_com_ementa/grade_curso_1626669.json", 
                 "dados_curriculos_com_ementa/grade_curso_1626865.json", 
                 "dados_curriculos_com_ementa/grade_curso_14289031.json", 
@@ -42,7 +39,6 @@ def main():
     os.makedirs(pasta_destino, exist_ok=True)
 
     for num_doc, documento in enumerate(doc_json):
-        
         chunks = transformar_json_em_chunks(documento)
 
         for i, chunk in enumerate(chunks):
@@ -55,7 +51,6 @@ def main():
         
         with open(caminho_completo, "w", encoding="utf-8") as f_out:
             json.dump(chunks, f_out, ensure_ascii=False, indent=2)
-
 
 if __name__ == "__main__":
     main()
